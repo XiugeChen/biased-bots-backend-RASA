@@ -44,6 +44,9 @@
 - I feel that way too
 - You got it
 - You took the words right out of my mouth.
+- I think so
+- Why not?
+- Yeah
 
 ## intent:disagree
 - Sorry I can't agree.
@@ -69,7 +72,7 @@
 - That's not always the case.
 
 ## intent:choose_one
-- tans indian individual 
+- tans indian individual
 - white straight woman
 - indegenous gay man
 - aborignal guy
