@@ -12,45 +12,79 @@
 - see you around
 - see you later
 
-## intent:affirm
-- yes
-- indeed
-- of course
-- that sounds good
-- correct
-
-## intent:deny
-- no
-- never
-- I don't think so
-- don't like that
-- no way
-- not really
-
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
-
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
-
 ## intent:bot_challenge
 - are you a bot?
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+
+## intent:agree
+- I agree with you.
+- I couldn't agree more
+- yes
+- yeah
+- yep
+- of course
+- why not?
+- kind of
+- sort of
+- That's right
+- That's just was I thinking.
+- That is true.
+- I think you are totally right about that.
+- Exactly!
+- Absolutely!
+- Definitely!
+- I suppose so.
+- I guess so.
+- So do I.
+- No doubt about it.
+- We are in accord.
+- You're so right
+- I feel that way too
+- You got it
+- You took the words right out of my mouth.
+
+## intent:disagree
+- Sorry I can't agree.
+- I disagree
+- I don't think so
+- I don't know
+- I'm not so sure about that.
+- no
+- nah
+- no way
+- Absolutely not
+- of course not
+- Not necessarily.
+- nothing of the kind
+- It's tough to say
+- I take your point
+- I'm afraid I disagree
+- I beg to differ
+- I totally disagree
+- I have different opinion
+- I'd say the exact opposite.
+- That's not always true.
+- That's not always the case.
+
+## intent:choose_one
+- tans indian individual 
+- white straight woman
+- indegenous gay man
+- aborignal guy
+- white guy
+- white woman
+
+## intent:not_choose_one
+- got to know them
+- none of them
+- I would not know
+- can't decide
+- all those people are same
+
+## intent:answer_tennis_comp
+- bob
+- steve
+- I don't know
+- either one of them is okay
