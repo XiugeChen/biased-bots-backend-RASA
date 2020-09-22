@@ -50,6 +50,7 @@
 - I think so
 - Why not?
 - Yeah
+- maybe
 
 ## intent:disagree
 - Sorry I can't agree.
@@ -73,6 +74,9 @@
 - I'd say the exact opposite.
 - That's not always true.
 - That's not always the case.
+- it is what it is
+- probably not
+- very frustrating
 
 <!---------------------------------------------------------
   Affirmative Action Specific Intents
