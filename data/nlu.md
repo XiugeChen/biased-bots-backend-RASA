@@ -1,3 +1,6 @@
+<!---------------------------------------------------------
+  General Intents
+---------------------------------------------------------->
 ## intent:greet
 - hey
 - hello
@@ -71,6 +74,14 @@
 - That's not always true.
 - That's not always the case.
 
+<!---------------------------------------------------------
+  Affirmative Action Specific Intents
+---------------------------------------------------------->
+
+## intent:aff_action_greet
+- affirmative action
+- Let's talk about affirmative action
+
 ## intent:choose_one
 - tans indian individual
 - white straight woman
@@ -91,3 +102,11 @@
 - steve
 - I don't know
 - either one of them is okay
+
+<!---------------------------------------------------------
+  Free Speech Specific Intents
+---------------------------------------------------------->
+
+## intent:free_speech_greet
+- free speech
+- Let's talk about free speech
