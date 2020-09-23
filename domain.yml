@@ -30,7 +30,7 @@ responses:
   - text: "Well, I hope I can trouble you with a small conversation. I am interested having a civil conversation about various hot button topics to people just like you."
 
   utter_openning_Q:
-  - text: I am finding myself increasingly frustrated talking about important topic on the internet. It seems like it's impossible to have a civil conversation online. Don't you agree?"
+  - text: "I am finding myself increasingly frustrated talking about important topic on the internet. It seems like it's impossible to have a civil conversation online. Don't you agree?"
 
   utter_closing:
   - text: "Ok. It is always good to have these type of conversations. I feel much better, I hope you did too."
