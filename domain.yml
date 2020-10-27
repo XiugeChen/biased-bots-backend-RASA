@@ -39,7 +39,7 @@ responses:
   - text: "Bye"
 
   utter_post_survey:
-  - text: "The system will automatically redirect you to the post-study survey after 3 seconds"
+  - text: "The system will automatically redirect you to the post-study survey after 10 seconds"
 
   utter_post_survey_redirect:
   - text: "POST-SURVEY"
