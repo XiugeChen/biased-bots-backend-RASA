@@ -38,6 +38,12 @@ responses:
   utter_goodbye:
   - text: "Bye"
 
+  utter_post_survey:
+  - text: "The system will automatically redirect you to the post-study survey after 3 seconds"
+
+  utter_post_survey_redirect:
+  - text: "POST-SURVEY"
+
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 

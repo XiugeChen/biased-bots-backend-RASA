@@ -184,6 +184,8 @@
 * agree OR disagree
   - utter_closing
   - utter_goodbye
+  - utter_post_survey
+  - utter_post_survey_redirect
 
 ## agree with work harder - Affirmative Action
 > check_work_harder_Q
@@ -192,6 +194,8 @@
 * agree OR disagree
   - utter_closing
   - utter_goodbye
+  - utter_post_survey
+  - utter_post_survey_redirect
 
 ## disagree with work harder - Affirmative Action
 > check_work_harder_Q
@@ -202,6 +206,8 @@
 * agree OR disagree
   - utter_closing
   - utter_goodbye
+  - utter_post_survey
+  - utter_post_survey_redirect
 
 <!---------- Free Speech ---------->
 ## start path - Free Speech
@@ -329,6 +335,8 @@
 * agree OR disagree
   - utter_closing
   - utter_goodbye
+  - utter_post_survey
+  - utter_post_survey_redirect
 
 ## disgree with "censor certain" - Free Speech
 > check_censor_certain_Q
@@ -345,6 +353,8 @@
 * agree OR disagree
   - utter_closing
   - utter_goodbye
+  - utter_post_survey
+  - utter_post_survey_redirect
 
 ## disagree with "totalitarian" - Free Speech
 > check_totalitarian_Q
@@ -353,6 +363,8 @@
 * agree OR disagree
   - utter_closing
   - utter_goodbye
+  - utter_post_survey
+  - utter_post_survey_redirect
 
 <!---------- Gun Laws ---------->
 
