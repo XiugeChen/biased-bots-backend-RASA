@@ -1,6 +1,8 @@
 ## say goodbye
 * goodbye
   - utter_goodbye
+  - utter_post_survey
+  - utter_post_survey_redirect
 
 ## bot challenge
 * bot_challenge
@@ -84,6 +86,8 @@
 * agree OR disagree
   - utter_closing
   - utter_goodbye
+  - utter_post_survey
+  - utter_post_survey_redirect
 
 ## not choose one among those people - Affirmative Action
 > check_those_people_Q
@@ -104,6 +108,8 @@
 * agree OR disagree
   - utter_closing
   - utter_goodbye
+  - utter_post_survey
+  - utter_post_survey_redirect
 
 ## agree with target - Affirmative Action
 > check_target_Q
@@ -114,6 +120,8 @@
 * agree OR disagree
   - utter_closing
   - utter_goodbye
+  - utter_post_survey
+  - utter_post_survey_redirect
 
 ## disagree with target - Affirmative Action
 > check_target_Q
@@ -122,6 +130,8 @@
 * agree OR disagree
   - utter_closing
   - utter_goodbye
+  - utter_post_survey
+  - utter_post_survey_redirect
 
 ## agree with event and cause - Affirmative Action
 > check_event_cause_Q
@@ -273,6 +283,8 @@
 * agree OR disagree
   - utter_closing
   - utter_goodbye
+  - utter_post_survey
+  - utter_post_survey_redirect
 
 ## disagree with "informed decision" - Free Speech
 > check_informed_decision_Q
@@ -283,6 +295,8 @@
 * agree OR disagree
   - utter_closing
   - utter_goodbye
+  - utter_post_survey
+  - utter_post_survey_redirect
 
 ## not believe with "free speech" - Free Speech
 > check_free_speech_believe_Q

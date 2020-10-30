@@ -55,6 +55,7 @@
 - certainly
 - sure
 - fair enough
+- i would give up on parts of it
 
 ## intent:disagree
 - Sorry I can't agree.
@@ -97,7 +98,6 @@
 - aborignal guy
 - white guy
 - white woman
-- i would give up on parts of it
 
 ## intent:not_choose_one
 - got to know them
