@@ -1,6 +1,3 @@
-<!---------------------------------------------------------
-  General Intents
----------------------------------------------------------->
 ## intent:greet
 - hey
 - hello
@@ -51,6 +48,13 @@
 - Why not?
 - Yeah
 - maybe
+- i agree
+- yes, i do
+- i think we can
+- absolutely
+- certainly
+- sure
+- fair enough
 
 ## intent:disagree
 - Sorry I can't agree.
@@ -77,10 +81,10 @@
 - it is what it is
 - probably not
 - very frustrating
-
-<!---------------------------------------------------------
-  Affirmative Action Specific Intents
----------------------------------------------------------->
+- thats wrong
+- even if its good for everyone?
+- not at all
+- nobody can determine luck
 
 ## intent:aff_action_greet
 - affirmative action
@@ -93,6 +97,7 @@
 - aborignal guy
 - white guy
 - white woman
+- i would give up on parts of it
 
 ## intent:not_choose_one
 - got to know them
@@ -106,10 +111,6 @@
 - steve
 - I don't know
 - either one of them is okay
-
-<!---------------------------------------------------------
-  Free Speech Specific Intents
----------------------------------------------------------->
 
 ## intent:free_speech_greet
 - free speech
