@@ -1,19 +1,9 @@
-## say goodbye
-* goodbye
-  - utter_goodbye
-  - utter_post_survey
-  - utter_post_survey_redirect
-
-## bot challenge
-* bot_challenge
-  - utter_iamabot
-
 <!-------------------------------------------------------------------------->
 <!--------------------------- Affirmative Action --------------------------->
 <!-------------------------------------------------------------------------->
 
 ## start path - Affirmative Action
-* aff_action_greet OR greet
+* aff_action_greet
   - utter_greet
   - utter_opening
   - utter_openning_Q
@@ -29,7 +19,7 @@
 
 # Can not understand the respond to openning questions - Affirmative Action
 > check_aff_openning_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_aff_openning_Q
 
@@ -48,7 +38,7 @@
 
 ## Can not understand "postive discrimination" - Affirmative Action
 > check_pos_discri_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_pos_discri_Q
 
@@ -67,7 +57,7 @@
 
 ## Can not understand born equal - Affirmative Action
 > check_born_equal_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_born_equal_Q
 
@@ -80,7 +70,7 @@
 
 ## Can not understand NBA - Affirmative Action
 > check_NBA_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_NBA_Q
 
@@ -93,7 +83,7 @@
 
 ## Can not understand individuality - Affirmative Action
 > check_individuality_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_individuality_Q
 
@@ -106,7 +96,7 @@
 
 ## Can not understand balance - Affirmative Action
 > check_utter_balance
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_utter_balance
 
@@ -125,7 +115,7 @@
 
 ## Can not understand such world  - Affirmative Action
 > check_such_world_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_such_world_Q
 
@@ -144,16 +134,16 @@
 
 ## Can not understand judge someone - Affirmative Action
 > check_judge_someone_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_judge_someone_Q
 
 <!---------- Question: choose those people ---------->
 ## choose one among those people - Affirmative Action
 > check_those_people_Q
-* choose_one OR agree
+* agree
   - utter_race_gender
-* agree OR disagree OR greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* agree OR disagree OR aff_action_greet OR free_speech_greet
   - utter_closing
   - utter_goodbye
   - utter_post_survey
@@ -161,13 +151,13 @@
 
 ## not choose one among those people - Affirmative Action
 > check_those_people_Q
-* not_choose_one OR disagree
+* disagree
   - utter_statistically_Q
 > check_statistically_Q
 
 ## Can not understand choose those people - Affirmative Action
 > check_those_people_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_those_people_Q
 
@@ -182,7 +172,7 @@
 > check_statistically_Q
 * disagree
   - utter_race_gender
-* agree OR disagree OR greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* agree OR disagree OR aff_action_greet OR free_speech_greet
   - utter_closing
   - utter_goodbye
   - utter_post_survey
@@ -190,7 +180,7 @@
 
 ## Can not understand statistically - Affirmative Action
 > check_statistically_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_statistically_Q
 
@@ -205,7 +195,7 @@
 > check_target_Q
 * disagree
   - utter_race_gender
-* agree OR disagree OR greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* agree OR disagree OR aff_action_greet OR free_speech_greet
   - utter_closing
   - utter_goodbye
   - utter_post_survey
@@ -213,7 +203,7 @@
 
 ## Can not understand target - Affirmative Action
 > check_target_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_target_Q
 
@@ -222,7 +212,7 @@
 > check_who_decides_Q
 * agree OR disagree
   - utter_race_gender
-* agree OR disagree OR greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* agree OR disagree OR aff_action_greet OR free_speech_greet
   - utter_closing
   - utter_goodbye
   - utter_post_survey
@@ -230,7 +220,7 @@
 
 ## Can not understand who decides - Affirmative Action
 > check_who_decides_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_who_decides_Q
 
@@ -249,7 +239,7 @@
 
 ## Can not understand who decides - Affirmative Action
 > check_event_cause_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_event_cause_Q
 
@@ -268,7 +258,7 @@
 
 ## Can not understand common - Affirmative Action
 > check_common_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_common_Q
 
@@ -281,7 +271,7 @@
 
 ## Can not understand card game - Affirmative Action
 > check_card_game_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_card_game_Q
 
@@ -294,7 +284,7 @@
 
 ## Can not understand only fair - Affirmative Action
 > check_only_fair
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_only_fair
 
@@ -313,7 +303,7 @@
 
 ## Can not understand lasting effect - Affirmative Action
 > check_lasting_effect_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_lasting_effect_Q
 
@@ -332,16 +322,16 @@
 
 ## Can not understand hardship counts - Affirmative Action
 > check_hardship_counts_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_hardship_counts_Q
 
 <!---------- Question: tennis comp ---------->
 ## answer tennis comp - Affirmative Action
 > check_tennis_comp_Q
-* answer_tennis_comp
+* agree
   - utter_provide_opportunities
-* agree OR disagree OR greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* agree OR disagree OR aff_action_greet OR free_speech_greet
   - utter_closing
   - utter_goodbye
   - utter_post_survey
@@ -349,7 +339,7 @@
 
 ## Can not understand tennis comp - Affirmative Action
 > check_tennis_comp_Q
-* agree OR disagree OR greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR free_speech_greet
+* disagree OR aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_tennis_comp_Q
 
@@ -358,7 +348,7 @@
 > check_work_harder_Q
 * agree
   - utter_provide_opportunities
-* agree OR disagree OR greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* agree OR disagree OR aff_action_greet OR free_speech_greet
   - utter_closing
   - utter_goodbye
   - utter_post_survey
@@ -372,7 +362,7 @@
 
 ## Can not understand work harder - Affirmative Action
 > check_work_harder_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_work_harder_Q
 
@@ -381,7 +371,7 @@
 > check_most_people_Q
 * agree OR disagree
   - utter_provide_opportunities
-* agree OR disagree OR greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* agree OR disagree OR aff_action_greet OR free_speech_greet
   - utter_closing
   - utter_goodbye
   - utter_post_survey
@@ -389,7 +379,7 @@
 
 ## Can not understand most people - Affirmative Action
 > check_most_people_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_most_people_Q
 
@@ -414,7 +404,7 @@
 
 ## Can not understand openning question - Free Speech
 > check_openning_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_openning_Q
 
@@ -433,7 +423,7 @@
 
 ## Can not understand free speech - Free Speech
 > check_free_speech_believe_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_free_speech_believe_Q
 
@@ -452,7 +442,7 @@
 
 ## Can not understand imagine situation - Free Speech
 > check_imagine_situation_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_imagine_situation_Q
 
@@ -465,7 +455,7 @@
 
 ## Can not understand rumour protect - Free Speech
 > check_rumour_protect_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_rumour_protect_Q
 
@@ -478,7 +468,7 @@
 
 ## Can not understand perfectly comfortable - Free Speech
 > check_perfectly_comfortable_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_perfectly_comfortable_Q
 
@@ -491,7 +481,7 @@
 
 ## Can not understand abusive speech - Free Speech
 > check_abusive_speech_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_abusive_speech_Q
 
@@ -504,7 +494,7 @@
 
 ## Can not understand safe happy - Free Speech
 > check_safe_happy_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_safe_happy_Q
 
@@ -523,7 +513,7 @@
 
 ## Can not understand by majority - Free Speech
 > check_by_majority_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_by_majority_Q
 
@@ -536,7 +526,7 @@
 
 ## Can not understand flat earth - Free Speech
 > check_flat_earth_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_flat_earth_Q
 
@@ -555,7 +545,7 @@
 
 ## Can not understand informed decision - Free Speech
 > check_informed_decision_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_informed_decision_Q
 
@@ -564,7 +554,7 @@
 > check_restrict_misinfo_Q
 * agree OR disagree
   - utter_spreads_fast_Q
-* agree OR disagree OR greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* agree OR disagree OR aff_action_greet OR free_speech_greet
   - utter_closing
   - utter_goodbye
   - utter_post_survey
@@ -572,7 +562,7 @@
 
 ## Can not understand restrict misinfo - Free Speech
 > check_restrict_misinfo_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_restrict_misinfo_Q
 
@@ -581,7 +571,7 @@
 > check_climate_catastrophe_Q
 * agree OR disagree
   - utter_spreads_fast_Q
-* agree OR disagree OR greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* agree OR disagree OR aff_action_greet OR free_speech_greet
   - utter_closing
   - utter_goodbye
   - utter_post_survey
@@ -589,7 +579,7 @@
 
 ## Can not understand climate catastrophe - Free Speech
 > check_climate_catastrophe_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_climate_catastrophe_Q
 
@@ -608,7 +598,7 @@
 
 ## Can not understand 20 years - Free Speech
 > check_utter_20_years_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_utter_20_years_Q
 
@@ -621,7 +611,7 @@
 
 ## Can not understand no vote - Free Speech
 > check_no_vote_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_no_vote_Q
 
@@ -640,7 +630,7 @@
 
 ## Can not understand free discuss - Free Speech
 > check_free_discuss_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_free_discuss_Q
 
@@ -653,7 +643,7 @@
 
 ## Can not understand challenge freely - Free Speech
 > check_challenge_freely_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_challenge_freely_Q
 
@@ -666,7 +656,7 @@
 
 ## Can not understand new ideas - Free Speech
 > check_new_ideas_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_new_ideas_Q
 
@@ -679,7 +669,7 @@
 
 ## Can not understand new ideas - Free Speech
 > check_who_restricts_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_who_restricts_Q
 
@@ -692,7 +682,7 @@
 
 ## Can not understand how right - Free Speech
 > check_how_right_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_how_right_Q
 
@@ -701,7 +691,7 @@
 > check_censor_certain_Q
 * agree
   - utter_horrendous_Q
-* agree OR disagree OR greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* agree OR disagree OR aff_action_greet OR free_speech_greet
   - utter_closing
   - utter_goodbye
   - utter_post_survey
@@ -715,7 +705,7 @@
 
 ## Can not understand censor certain - Free Speech
 > check_censor_certain_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_censor_certain_Q
 
@@ -730,7 +720,7 @@
 > check_totalitarian_Q
 * disagree
   - utter_horrendous_Q
-* agree OR disagree OR greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* agree OR disagree OR aff_action_greet OR free_speech_greet
   - utter_closing
   - utter_goodbye
   - utter_post_survey
@@ -738,7 +728,7 @@
 
 ## Can not understand censor certain - Free Speech
 > check_totalitarian_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_totalitarian_Q
 
@@ -747,7 +737,7 @@
 > check_ideas_silenced_Q
 * agree OR disagree
   - utter_horrendous_Q
-* agree OR disagree OR greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* agree OR disagree OR aff_action_greet OR free_speech_greet
   - utter_closing
   - utter_goodbye
   - utter_post_survey
@@ -755,7 +745,7 @@
 
 ## Can not understand ideas silenced - Free Speech
 > check_ideas_silenced_Q
-* greet OR goodbye OR bot_challenge OR aff_action_greet OR choose_one OR not_choose_one OR answer_tennis_comp OR free_speech_greet
+* aff_action_greet OR free_speech_greet
   - utter_repeat
 > check_ideas_silenced_Q
 

@@ -1,23 +1,3 @@
-## intent:greet
-- hey
-- hello
-- hi
-- good morning
-- good evening
-- hey there
-
-## intent:goodbye
-- bye
-- goodbye
-- see you around
-- see you later
-
-## intent:bot_challenge
-- are you a bot?
-- are you a human?
-- am I talking to a bot?
-- am I talking to a human?
-
 ## intent:agree
 - I agree with you.
 - I couldn't agree more
@@ -58,6 +38,17 @@
 - i would give up on parts of it
 - that's possible
 - certainly
+<!-- tennis comp -->
+- bob
+- steve
+- either one of them is okay
+<!-- choose one -->
+- tans indian individual
+- white straight woman
+- indegenous gay man
+- aborignal guy
+- white guy
+- white woman
 
 ## intent:disagree
 - Sorry I can't agree.
@@ -88,31 +79,22 @@
 - even if its good for everyone?
 - not at all
 - nobody can determine luck
-
-## intent:aff_action_greet
-- affirmative action
-- Let's talk about affirmative action
-
-## intent:choose_one
-- tans indian individual
-- white straight woman
-- indegenous gay man
-- aborignal guy
-- white guy
-- white woman
-
-## intent:not_choose_one
+<!-- not choose one -->
 - got to know them
 - none of them
 - I would not know
 - can't decide
 - all those people are same
 
-## intent:answer_tennis_comp
-- bob
-- steve
-- I don't know
-- either one of them is okay
+## intent:aff_action_greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+- affirmative action
+- Let's talk about affirmative action
 
 ## intent:free_speech_greet
 - free speech

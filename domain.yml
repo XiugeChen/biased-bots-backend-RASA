@@ -47,9 +47,6 @@ responses:
   utter_repeat:
   - text: "Sorry I can't understand, could you please rephrase it?"
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
   # ---- Affirmative Action Specific Response ----
   utter_aff_act_intro:
   - text: "I would like to talk Affirmative Action for now. There are laws like that incentivise companies that \"positively discriminate\" or hire someone based on their ethnicity, gender or (dis)abilities. These laws are there to fix some inequalities that exist between people along a demographic divide."
