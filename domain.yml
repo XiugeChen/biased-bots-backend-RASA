@@ -44,6 +44,9 @@ responses:
   utter_post_survey_redirect:
   - text: "POST-SURVEY"
 
+  utter_repeat:
+  - text: "Sorry I can't understand, could you please rephrase it?"
+
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 

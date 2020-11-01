@@ -1,0 +1,22 @@
+# Basic testing stores for affirmative actions
+
+stories:
+# All agree
+- story: A basic end-to-end test
+  steps:
+  - user: |
+      Let's talk about affirmative action
+    intent: aff_action_greet
+  - action: utter_greet
+  - action: utter_opening
+  - action: utter_openning_Q
+  - user: |
+      Yes
+    intent: agree
+  - action: utter_aff_act_intro
+  - action: utter_pos_discri_Q
+  - user: |
+      Yes
+    intent: agree
+  - action: utter_born_equal_Q
+  

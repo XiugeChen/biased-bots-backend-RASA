@@ -56,6 +56,8 @@
 - sure
 - fair enough
 - i would give up on parts of it
+- that's possible
+- certainly
 
 ## intent:disagree
 - Sorry I can't agree.
