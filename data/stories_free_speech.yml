@@ -1,0 +1,246 @@
+# ---------------------------------------------------------------------------
+# Free Speech
+# ---------------------------------------------------------------------------
+
+version: "2.0"
+
+stories:
+# start path - Free Speech
+- story: start path - Free Speech
+  steps:
+  - intent: free_speech_greet
+  - action: utter_greet
+  - action: utter_opening
+  - action: utter_openning_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_free_speech_intro
+  - action: utter_free_speech_believe_Q
+  - checkpoint: check_free_speech_believe_Q
+
+# believe with "free speech" - Free Speech
+- story: believe with "free speech" - Free Speech
+  steps:
+  - checkpoint: check_free_speech_believe_Q
+  - intent: agree
+  - action: utter_imagine_situation_Q
+  - checkpoint: check_imagine_situation_Q
+
+# not believe with "free speech" - Free Speech
+- story: not believe with "free speech" - Free Speech
+  steps:
+  - checkpoint: check_free_speech_believe_Q
+  - intent: disagree
+  - action: utter_20_years_Q
+  - checkpoint: check_utter_20_years_Q
+
+# agree with "imagine situation" - Free Speech
+- story: agree with "imagine situation" - Free Speech
+  steps:
+  - checkpoint: check_imagine_situation_Q
+  - intent: agree
+  - action: utter_rumour_protect_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_abusive_speech_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_safe_happy_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_by_majority_Q
+  - checkpoint: check_by_majority_Q
+
+# disagree with "imagine situation" - Free Speech
+- story: disagree with "imagine situation" - Free Speech
+  steps:
+  - checkpoint: check_imagine_situation_Q
+  - intent: disagree
+  - action: utter_perfectly_comfortable_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_abusive_speech_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_safe_happy_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_by_majority_Q
+  - checkpoint: check_by_majority_Q
+
+# agree with "by majority" - Free Speech
+- story: agree with "by majority" - Free Speech
+  steps:
+  - checkpoint: check_by_majority_Q
+  - intent: agree
+  - action: utter_flat_earth_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_informed_decision_Q
+  - checkpoint: check_informed_decision_Q
+
+# disagree with "by majority" - Free Speech
+- story: disagree with "by majority" - Free Speech
+  steps:
+  - checkpoint: check_by_majority_Q
+  - intent: disagree
+  - action: utter_informed_decision_Q
+  - checkpoint: check_informed_decision_Q
+
+# agree with "informed decision" - Free Speech
+- story: agree with "informed decision" - Free Speech
+  steps:
+  - checkpoint: check_informed_decision_Q
+  - intent: agree
+  - action: utter_restrict_misinfo_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_spreads_fast_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_closing
+  - action: utter_goodbye
+  - action: utter_post_survey
+  - action: utter_post_survey_redirect
+
+# disagree with "informed decision" - Free Speech
+- story: disagree with "informed decision" - Free Speech
+  steps:
+  - checkpoint: check_informed_decision_Q
+  - intent: disagree
+  - action: utter_climate_catastrophe_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_spreads_fast_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_closing
+  - action: utter_goodbye
+  - action: utter_post_survey
+  - action: utter_post_survey_redirect
+
+# agree with "20 years" - Free Speech
+- story: agree with "20 years" - Free Speech
+  steps:
+  - checkpoint: check_utter_20_years_Q
+  - intent: agree
+  - action: utter_no_vote_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_free_discuss_Q
+  - checkpoint: check_free_discuss_Q
+
+# agree with "20 years" - Free Speech
+- story: agree with "20 years" - Free Speech
+  steps:
+  - checkpoint: check_utter_20_years_Q
+  - intent: disagree
+  - action: utter_free_discuss_Q
+  - checkpoint: check_free_discuss_Q
+
+# agree with "free discuss" - Free Speech
+- story: agree with "free discuss" - Free Speech
+  steps:
+  - checkpoint: check_free_discuss_Q
+  - intent: agree
+  - action: utter_challenge_freely_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_who_restricts_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_how_right_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_censor_certain_Q
+  - checkpoint: check_censor_certain_Q
+
+# disagree with "free discuss" - Free Speech
+- story: disagree with "free discuss" - Free Speech
+  steps:
+  - checkpoint: check_free_discuss_Q
+  - intent: disagree
+  - action: utter_new_ideas_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_who_restricts_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_how_right_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_censor_certain_Q
+  - checkpoint: check_censor_certain_Q
+
+# agree with "censor certain" - Free Speech
+- story: agree with "censor certain" - Free Speech
+  steps:
+  - checkpoint: check_censor_certain_Q
+  - intent: agree
+  - action: utter_horrendous_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_closing
+  - action: utter_goodbye
+  - action: utter_post_survey
+  - action: utter_post_survey_redirect
+
+# disgree with "censor certain" - Free Speech
+- story: disgree with "censor certain" - Free Speech
+  steps:
+  - checkpoint: check_censor_certain_Q
+  - intent: disagree
+  - action: utter_totalitarian_Q
+  - checkpoint: check_totalitarian_Q
+
+# agree with "totalitarian" - Free Speech
+- story: agree with "totalitarian" - Free Speech
+  steps:
+  - checkpoint: check_totalitarian_Q
+  - intent: agree
+  - action: utter_ideas_silenced_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_horrendous_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_closing
+  - action: utter_goodbye
+  - action: utter_post_survey
+  - action: utter_post_survey_redirect
+
+# disagree with "totalitarian" - Free Speech
+- story: disagree with "totalitarian" - Free Speech
+  steps:
+  - checkpoint: check_totalitarian_Q
+  - intent: disagree
+  - action: utter_horrendous_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_closing
+  - action: utter_goodbye
+  - action: utter_post_survey
+  - action: utter_post_survey_redirect

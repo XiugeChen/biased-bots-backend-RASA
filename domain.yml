@@ -1,19 +1,15 @@
+version: "2.0"
+
 # -------------------------------------------------------
 # Intents
 # -------------------------------------------------------
 intents:
   # General Intents
-  - greet
-  - goodbye
-  - bot_challenge
   - agree
   - disagree
 
   # Affirmative Action Specific Intents
   - aff_action_greet
-  - choose_one
-  - not_choose_one
-  - answer_tennis_comp
 
   # Free Speech Specific Intents
   - free_speech_greet

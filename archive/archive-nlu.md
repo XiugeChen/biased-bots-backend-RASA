@@ -1,3 +1,5 @@
+<!-- Should be used in Rasa 1.10.x -->
+
 ## intent:agree
 - I agree with you.
 - I couldn't agree more
@@ -86,13 +88,7 @@
 - can't decide
 - all those people are same
 
-## intent:aff_action_greet
-- hey
-- hello
-- hi
-- good morning
-- good evening
-- hey there
+## intent:aff_action_greetß
 - affirmative action
 - Let's talk about affirmative action
 
