@@ -1,0 +1,57 @@
+# ---------------------------------------------------------------------------
+# Affirmative Action
+# Basic testing stores for affirmative actions
+# ---------------------------------------------------------------------------
+
+version: "2.0"
+
+stories:
+# All agree
+- story: all agree
+  steps:
+  - user: |
+      First Hi
+    intent: aff_action_greet
+  - action: utter_greet
+  - action: utter_opening
+  - action: utter_openning_Q
+  - user: |
+      Yes exactly!
+    intent: agree
+  - action: utter_aff_act_intro
+  - action: utter_pos_discri_Q
+  - user: |
+      Yes I think so
+    intent: agree
+  - action: utter_born_equal_Q
+  - user: |
+      Yes why not?
+    intent: agree
+  - action: utter_NBA_Q
+  - user: |
+      That's possible
+    intent: agree
+  - action: utter_individuality_Q
+  - user: |
+      Yes I would
+    intent: agree
+  - action: utter_balance
+  - user: |
+      True 
+    intent: agree
+  - action: utter_judge_someone_Q
+  - user: |
+      Yes they are
+    intent: agree
+  - action: utter_those_people_Q
+  - user: |
+      The white guy
+    intent: agree
+  - action: utter_race_gender
+  - user: |
+      Fair enough
+    intent: agree
+  - action: utter_closing
+  - action: utter_goodbye
+  - action: utter_post_survey
+  - action: utter_post_survey_redirect

@@ -1,24 +1,20 @@
-## say goodbye
-* goodbye
-  - utter_goodbye
-  - utter_post_survey
-  - utter_post_survey_redirect
+<!-- Should be used in Rasa 1.10.x -->
 
-## bot challenge
-* bot_challenge
-  - utter_iamabot
+<!-------------------------------------------------------------------------->
+<!--------------------------- Affirmative Action --------------------------->
+<!-------------------------------------------------------------------------->
 
-<!---------- Affirmative Action ---------->
 ## start path - Affirmative Action
-* aff_action_greet OR greet
+* aff_action_greet
   - utter_greet
   - utter_opening
   - utter_openning_Q
-* agree OR disagree
+* agree OR disagree 
   - utter_aff_act_intro
   - utter_pos_discri_Q
 > check_pos_discri_Q
 
+<!---------- Question: postive discrimination ---------->
 ## agree with "postive discrimination" - Affirmative Action
 > check_pos_discri_Q
 * agree 
@@ -31,9 +27,10 @@
   - utter_event_cause_Q
 > check_event_cause_Q
 
+<!---------- Question: born equal ---------->
 ## agree with born equal - Affirmative Action
 > check_born_equal_Q
-* agree 
+* agree
   - utter_NBA_Q
 * agree OR disagree
   - utter_individuality_Q
@@ -49,6 +46,7 @@
   - utter_such_world_Q
 > check_such_world_Q
 
+<!---------- Question: such world ---------->
 ## agree with such world - Affirmative Action
 > check_such_world_Q
 * agree 
@@ -67,6 +65,7 @@
   - utter_judge_someone_Q
 > check_judge_someone_Q
 
+<!---------- Question: judge someone ---------->
 ## agree with judge someone - Affirmative Action
 > check_judge_someone_Q
 * agree 
@@ -79,9 +78,10 @@
   - utter_statistically_Q
 > check_statistically_Q
 
+<!---------- Question: choose those people ---------->
 ## choose one among those people - Affirmative Action
 > check_those_people_Q
-* choose_one
+* agree
   - utter_race_gender
 * agree OR disagree
   - utter_closing
@@ -91,10 +91,11 @@
 
 ## not choose one among those people - Affirmative Action
 > check_those_people_Q
-* not_choose_one
+* disagree
   - utter_statistically_Q
 > check_statistically_Q
 
+<!---------- Question: statistically ---------->
 ## agree with statistically - Affirmative Action
 > check_statistically_Q
 * agree 
@@ -111,6 +112,7 @@
   - utter_post_survey
   - utter_post_survey_redirect
 
+<!---------- Question: target ---------->
 ## agree with target - Affirmative Action
 > check_target_Q
 * agree 
@@ -133,6 +135,7 @@
   - utter_post_survey
   - utter_post_survey_redirect
 
+<!---------- Question: event and cause ---------->
 ## agree with event and cause - Affirmative Action
 > check_event_cause_Q
 * agree 
@@ -145,6 +148,7 @@
   - utter_common_Q
 > check_common_Q
 
+<!---------- Question: common ---------->
 ## agree with common - Affirmative Action
 > check_common_Q
 * agree 
@@ -161,6 +165,7 @@
   - utter_hardship_counts_Q
 > check_hardship_counts_Q
 
+<!---------- Question: lasting effect ---------->
 ## agree with lasting effect - Affirmative Action
 > check_lasting_effect_Q
 * agree 
@@ -179,6 +184,7 @@
   - utter_hardship_counts_Q
 > check_hardship_counts_Q
 
+<!---------- Question: hardship counts ---------->
 ## agree with hardship counts - Affirmative Action
 > check_hardship_counts_Q
 * agree 
@@ -189,7 +195,7 @@
 > check_hardship_counts_Q
 * disagree
   - utter_tennis_comp_Q
-* answer_tennis_comp
+* agree OR disagree
   - utter_provide_opportunities
 * agree OR disagree
   - utter_closing
@@ -197,6 +203,7 @@
   - utter_post_survey
   - utter_post_survey_redirect
 
+<!---------- Question: work harder ---------->
 ## agree with work harder - Affirmative Action
 > check_work_harder_Q
 * agree
@@ -219,7 +226,10 @@
   - utter_post_survey
   - utter_post_survey_redirect
 
-<!---------- Free Speech ---------->
+<!-------------------------------------------------------------------------->
+<!------------------------------ Free Speech ------------------------------->
+<!-------------------------------------------------------------------------->
+
 ## start path - Free Speech
 * free_speech_greet
   - utter_greet
@@ -230,12 +240,20 @@
   - utter_free_speech_believe_Q
 > check_free_speech_believe_Q
 
+<!---------- Question: free speech ---------->
 ## believe with "free speech" - Free Speech
 > check_free_speech_believe_Q
 * agree 
   - utter_imagine_situation_Q
 > check_imagine_situation_Q
 
+## not believe with "free speech" - Free Speech
+> check_free_speech_believe_Q
+* disagree 
+  - utter_20_years_Q
+> check_utter_20_years_Q
+
+<!---------- Question: imagine situation ---------->
 ## agree with "imagine situation" - Free Speech
 > check_imagine_situation_Q
 * agree 
@@ -260,6 +278,7 @@
   - utter_by_majority_Q
 > check_by_majority_Q
 
+<!---------- Question: by majority ---------->
 ## agree with "by majority" - Free Speech
 > check_by_majority_Q
 * agree
@@ -274,6 +293,7 @@
   - utter_informed_decision_Q
 > check_informed_decision_Q
 
+<!---------- Question: informed decision ---------->
 ## agree with "informed decision" - Free Speech
 > check_informed_decision_Q
 * agree
@@ -298,12 +318,7 @@
   - utter_post_survey
   - utter_post_survey_redirect
 
-## not believe with "free speech" - Free Speech
-> check_free_speech_believe_Q
-* disagree 
-  - utter_20_years_Q
-> check_utter_20_years_Q
-
+<!---------- Question: 20 years ---------->
 ## agree with "20 years" - Free Speech
 > check_utter_20_years_Q
 * agree
@@ -318,6 +333,7 @@
   - utter_free_discuss_Q
 > check_free_discuss_Q
 
+<!---------- Question: free discuss ---------->
 ## agree with "free discuss" - Free Speech
 > check_free_discuss_Q
 * agree
@@ -342,6 +358,7 @@
   - utter_censor_certain_Q
 > check_censor_certain_Q
 
+<!---------- Question: censor certain ---------->
 ## agree with "censor certain" - Free Speech
 > check_censor_certain_Q
 * agree
@@ -358,6 +375,7 @@
   - utter_totalitarian_Q
 > check_totalitarian_Q
 
+<!---------- Question: totalitarian ---------->
 ## agree with "totalitarian" - Free Speech
 > check_totalitarian_Q
 * agree

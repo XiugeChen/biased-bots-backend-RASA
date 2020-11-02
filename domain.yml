@@ -1,19 +1,15 @@
+version: "2.0"
+
 # -------------------------------------------------------
 # Intents
 # -------------------------------------------------------
 intents:
   # General Intents
-  - greet
-  - goodbye
-  - bot_challenge
   - agree
   - disagree
 
   # Affirmative Action Specific Intents
   - aff_action_greet
-  - choose_one
-  - not_choose_one
-  - answer_tennis_comp
 
   # Free Speech Specific Intents
   - free_speech_greet
@@ -30,7 +26,7 @@ responses:
   - text: "Well, I hope I can trouble you with a small conversation. I am interested having a civil conversation about various hot button topics to people just like you."
 
   utter_openning_Q:
-  - text: "I am finding myself increasingly frustrated talking about important topic on the internet. It seems like it's impossible to have a civil conversation online. Don't you agree?"
+  - text: "But, I am finding myself increasingly frustrated talking about important topic on the internet. It seems like it's impossible to have a civil conversation online. Don't you agree?"
 
   utter_closing:
   - text: "Ok. It is always good to have these type of conversations. I feel much better, I hope you did too."
@@ -44,8 +40,8 @@ responses:
   utter_post_survey_redirect:
   - text: "POST-SURVEY"
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  utter_repeat:
+  - text: "Sorry I can't understand, could you please rephrase it?"
 
   # ---- Affirmative Action Specific Response ----
   utter_aff_act_intro:

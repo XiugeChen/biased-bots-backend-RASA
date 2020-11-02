@@ -1,0 +1,32 @@
+# -----------------------------------
+# utter_those_people_Q: Not choose one ("So what do you think of when you see a indegenous gay man, a white straight woman or a tans indian individual. Would you think one of those people are more likely to be a smarter person? who?")
+# utter_tennis_comp_Q: Select ("If you were asked to select the best tennis player out of two people. One, Steve, who was the last place in the Australian Open and the other, Bob, who was first in your local community competition. You would pick Bob over Steve? Regardless of the adversity, they experienced")
+# -----------------------------------
+
+version: "2.0"
+
+nlu:
+# ---------------------------------------------------------------------------
+# Agree
+# ---------------------------------------------------------------------------
+- intent: agree
+  examples: |
+    - either one of them is okay
+    - tans indian individual
+    - white straight woman
+    - indegenous gay man
+    - aborignal guy
+    - white guy
+    - white woman
+    - bob
+    - steve
+
+# ---------------------------------------------------------------------------
+# Disagree
+# ---------------------------------------------------------------------------
+- intent: disagree
+  examples: |
+    - got to know them
+    - none of them
+    - can't decide
+    - all those people are same
