@@ -52,6 +52,7 @@ nlu:
 # ---------------------------------------------------------------------------
 - intent: disagree
   examples: |
+    - Sorry I can't
     - Sorry I can't agree.
     - I disagree
     - I don't think so
