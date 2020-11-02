@@ -5,6 +5,8 @@ nlu:
 # Agree
 # ---------------------------------------------------------------------------
 - intent: agree
+  metadata:
+    sentiment: positive
   examples: |
     - I agree with you.
     - I couldn't agree more
@@ -51,6 +53,8 @@ nlu:
 # Disagree
 # ---------------------------------------------------------------------------
 - intent: disagree
+  metadata:
+    sentiment: negative
   examples: |
     - Sorry I can't
     - Sorry I can't agree.
@@ -91,6 +95,8 @@ nlu:
 # Affirmative Action Greet
 # ---------------------------------------------------------------------------
 - intent: aff_action_greet
+  metadata:
+    sentiment: neutral
   examples: |
     - First Hi
     - First Hello 
@@ -99,6 +105,8 @@ nlu:
 # Free Speech Greet
 # ---------------------------------------------------------------------------
 - intent: free_speech_greet
+  metadata:
+    sentiment: neutral
   examples: |
     - Second Hi
     - Second Hello
