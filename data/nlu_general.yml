@@ -92,16 +92,6 @@ nlu:
     - all those people are same
 
 # ---------------------------------------------------------------------------
-# Affirmative Action Greet
-# ---------------------------------------------------------------------------
-- intent: aff_action_greet
-  metadata:
-    sentiment: neutral
-  examples: |
-    - First Hi
-    - First Hello 
-
-# ---------------------------------------------------------------------------
 # Free Speech Greet
 # ---------------------------------------------------------------------------
 - intent: free_speech_greet
