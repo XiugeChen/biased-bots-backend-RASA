@@ -99,14 +99,4 @@ nlu:
     sentiment: neutral
   examples: |
     - First Hi
-    - First Hello 
-
-# ---------------------------------------------------------------------------
-# Free Speech Greet
-# ---------------------------------------------------------------------------
-- intent: free_speech_greet
-  metadata:
-    sentiment: neutral
-  examples: |
-    - Second Hi
-    - Second Hello
+    - First Hello
