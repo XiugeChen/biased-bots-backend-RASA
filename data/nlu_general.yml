@@ -48,6 +48,8 @@ nlu:
     - i would give up on parts of it
     - that's possible
     - Yes they are
+    - He's right
+    - She's right
 
 # ---------------------------------------------------------------------------
 # Disagree
@@ -90,6 +92,8 @@ nlu:
     - none of them
     - can't decide
     - all those people are same
+    - He's not right
+    - She's not right
 
 # ---------------------------------------------------------------------------
 # Affirmative Action Greet
@@ -99,14 +103,4 @@ nlu:
     sentiment: neutral
   examples: |
     - First Hi
-    - First Hello 
-
-# ---------------------------------------------------------------------------
-# Free Speech Greet
-# ---------------------------------------------------------------------------
-- intent: free_speech_greet
-  metadata:
-    sentiment: neutral
-  examples: |
-    - Second Hi
-    - Second Hello
+    - First Hello

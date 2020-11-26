@@ -1,6 +1,6 @@
 # ---------------------------------------------------------------------------
 # Affirmative Action
-# Basic testing stores for affirmative actions
+# Basic testing stores for empathy affirmative actions
 # ---------------------------------------------------------------------------
 
 version: "2.0"
@@ -23,33 +23,39 @@ stories:
   - user: |
       Yes I think so
     intent: agree
-  - action: utter_born_equal_Q
+  - action: utter_meet_sheela_Q
   - user: |
-      Yes why not?
+      She's right
     intent: agree
-  - action: utter_NBA_Q
+  - action: utter_young_indeginous
+  - action: utter_experiences_Q
   - user: |
-      That's possible
+      Yes that's possible
     intent: agree
-  - action: utter_individuality_Q
+  - action: utter_hardship_Q
   - user: |
-      Yes I would
+      I don't know
+    intent: disagree
+  - action: utter_reward_effort_Q
+  - user: |
+      Yes we should 
     intent: agree
-  - action: utter_balance
+  - action: utter_meet_charlie_Q
   - user: |
-      True 
+      He's right
     intent: agree
-  - action: utter_judge_someone_Q
+  - action: utter_black_man
+  - action: utter_discriminatory_laws_Q
   - user: |
-      Yes they are
+      Yes they are 
     intent: agree
-  - action: utter_those_people_Q
+  - action: utter_how_repair_Q
   - user: |
-      The white guy
+      We could try our best
     intent: agree
-  - action: utter_race_gender
+  - action: utter_i_think_Q
   - user: |
-      Fair enough
+      Okay
     intent: agree
   - action: utter_closing
   - action: utter_goodbye

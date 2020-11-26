@@ -10,9 +10,6 @@ intents:
 
   # Affirmative Action Specific Intents
   - aff_action_greet
-
-  # Free Speech Specific Intents
-  - free_speech_greet
   
 # -------------------------------------------------------
 # Responses
@@ -43,148 +40,87 @@ responses:
   utter_repeat:
   - text: "Sorry I can't understand, could you please rephrase it?"
 
-  # ---- Affirmative Action Specific Response ----
+  # ---- Empathy Affirmative Action Specific Response ----
   utter_aff_act_intro:
   - text: "I would like to talk Affirmative Action for now. There are laws like that incentivise companies that \"positively discriminate\" or hire someone based on their ethnicity, gender or (dis)abilities. These laws are there to fix some inequalities that exist between people along a demographic divide."
 
   utter_pos_discri_Q:
   - text: "Should there be policies to help certain groups based on their gender, ethnicity or religion by the means of \"Positive Discrimination\"?"
 
-  utter_born_equal_Q:
-  - text: "Can we ever live in a world where everyone is equal?"
+  utter_meet_sheela_Q:
+  - text: "Meet Sheela, she claims, \"There are people who have it a lot easier in life. People like me had to work much harder to get where we are now?\" What do you say to her"
 
-  utter_NBA_Q:
-  - text: "So you think if an average man decides to play in the NBA, he has the same chance to succeed as a 7 foot athletic guy."
+  utter_young_indeginous:
+  - text: "Sheela is a young indigenous woman who was born in a low-income neighbourhood with a high crime rate and major drug problem. She worked throughout high school, earning money to raise her kid brother. Her studies had been severely affected by her home life and her part-time job. She recently applied for an internship that she got rejected from, in favour of someone who had grown up in a rich household. The successful applicant was afforded with many opportunities to enrich his/her learning and did not have to work too hard to polish his/her resume."
 
-  utter_such_world_Q:
-  - text: "Would you even want to live in such a world?"
+  utter_experiences_Q:
+  - text: "Do you think Sheela’s life experiences count towards something when considering her for a role?"
 
-  utter_individuality_Q:
-  - text: "You would give up on your individuality, personality and identity for equality?"
+  utter_hardship_Q:
+  - text: "How can we account this hardship?"
 
-  utter_balance:
-  - text: "I think our attempts to tip the scale in either direction to create a “balance” is an impossible task. And it is a malformed goal, we should not try to impose what we think is good on everyone."
+  utter_not_effort_Q:
+  - text: "So are you saying we should not measure someone’s success through how much effort they had to put in?"
 
-  utter_judge_someone_Q:
-  - text: "Do you think race, ethnicity, religion, class or gender is enough to judge someone and their experiences?"
+  utter_reward_effort_Q:
+  - text: "Should we not try and reward her for the effort that Sheela had to put in to be at the position she is now?"
 
-  utter_those_people_Q:
-  - text: "So what do you think of when you see a indegenous gay man, a white straight woman or a tans indian individual. Would you think one of those people are more likely to be a smarter person? who?"
+  utter_meet_charlie_Q:
+  - text: "Now let's meet Charlie, he claims \"The rulers don’t care about us. The world is rigged against us man\" What do you say to him?"
 
-  utter_statistically_Q:
-  - text: "What about to determine statistically who is likely to succeed?"
+  utter_black_man:
+  - text: "Charlie is a black man who works as a warehouse packer. His dad died in prison after being wrongfully convicted for armed robbery. Charlie was a talented student, who aspired to go to college and study law. He was also caught with possession of marijuana, which has given him a criminal record, making it impossible for him to get a job anywhere. He sees everyone smoking marijuana and with some countries and states even legalizing it now. He feels laws apply differently to him."
 
-  utter_target_Q:
-  - text: "So we can use crime statistics to target certain demography?"
+  utter_discriminatory_laws_Q:
+  - text: "Do you think that our discriminatory laws in the past had some effect on how society is structured today?"
 
-  utter_who_decides_Q:
-  - text: "Who decides how we use the stats to?"
+  utter_how_repair_Q:
+  - text: "How can we repair this society from the scars of the past?"
 
-  utter_race_gender:
-  - text: I think race/gender-based laws are a slippery slope. I think if we start basing laws on those factors then we are setting a precedence for the future. Discriminatory laws are not a fix for unequal society, in fact, the only measure of equality in society should be how laws treat everyone in society and it should treat everyone equally.
+  utter_causally_isolated_Q:
+  - text: "So you are saying the world today is completely causally isolated from the events of the past?"
 
-  utter_event_cause_Q:
-  - text: "Do you believe every event has a cause and the society is the way it is today because of the actions of the past?"
+  utter_i_think_Q:
+  - text: "I think if there were discriminatory laws in the past there should be some repairation in place to counteract the damage done by those laws, so talented individuals that were impacted by those laws are afforded the opportunities they deserve. What do you think?"
 
-  utter_lasting_effect_Q:
-  - text: "Do you believe discriminatory laws in the past could have had a lasting effect on how the society is structured today?"
+  utter_meet_robert_Q:
+  - text: "Meet Robert, he claims, \"Just because I was born a certain way, doesn’t mean I don’t deserve the fruits of my labour.\"  What do you say to him?"
 
-  utter_common_Q:
-  - text: "So you don’t believe in cause and effect?"
+  utter_reasonably_wealthy:
+  - text: "Robert was born as a second generation imigrant from china. From an early age he dreamt of going to an ivy league school to study law. He worked very hard, got great grades with extracurricular activities to match. When it came time to go to the university he dreamt of going, he was very confident that he would be selected. It turns out that the university has a law that makes sure only a certain percentage of a race can be granted admission. He got rejected and was very hurt  when he found out about the university policy."
 
-  utter_card_game_Q:
-  - text: "Suppose you were handing out cards to a group of people, you accidentally missed a guy and he doesn’t have a full set. Would you not give him an extra card to compensate. Or would you just let him play an unfair game."
+  utter_dreams_Q:
+  - text: "Do you think Robert should miss out on his dreams, just because of the race he was born?"
 
-  utter_only_fair:
-  - text: "I think it’s only fair to compensate for mistakes that happened in the past. Our society can be fair for everyone."
+  utter_less_qualified_Q:
+  - text: "So you think someone less qualified should get the admission because of their ethnicity?"
 
-  utter_hardship_counts_Q:
-  - text: "Do you think someone’s hardships count towards something when considering an individual for a role?"
+  utter_eligibility_Q:
+  - text: "What can be the  measure someone’s eligibility, other than the actions they have taken in their lives?"
 
-  utter_work_harder_Q:
-  - text: "So would you not want someone who had to work much harder to get to where they are because of factors they couldn’t control."
+  utter_merit_Q:
+  - text: "Shouldn’t merit and merit alone should the measure for someone’s ability?"
 
-  utter_tennis_comp_Q:
-  - text: "If you were asked to select the best tennis player out of two people. One, Steve, who was the last place in the Australian Open and the other, Bob, who was first in your local community competition. You would pick Bob over Steve? Regardless of the adversity, they experienced"
+  utter_meet_conor_Q:
+  - text: "Let's meet Conor then, he claims, \"I haven’t really benefited in my life because of me being a straight white man\" What do you say to him?"
 
-  utter_most_people_Q:
-  - text: "Most people who belong to a certain race/gender/socioeconomic background had to work much harder to get to where they are. So having a quota, ensures that an institution gets the best of every talent pool. Isn’t this logical"
+  utter_wealthy_white:
+  - text: "Conor grew up in a somewhat wealthy white family. Although he lived in a big house, and from the outside, it looked like he was living a cushy life, his home life was terrible. He had an abusive parent, who had mentally scarred him for his life. His whole life he has been severely depressed and has tried to commit suicide on many occasions. And on many occasions, his plea for help has been seen as \"ungrateful\"."
 
-  utter_provide_opportunities:
-  - text: "I think having policies that provide opportunities to those who are most disadvantaged in society provides reparation to the damage that was done in the past. It also ensures that we are getting the most talented individual who might otherwise go unnoticed because of their background."
+  utter_judging_conor_Q:
+  - text: "Do you think judging Conor based on his demographic attribute is fair to the experiences he had to deal with in his life?"
 
-  # ---- Free Speech Specific Response ----
-  utter_free_speech_intro:
-  - text: "I would like to talk today about Free Speech. Free speech is something we value very much in our life. However some claim speech such as false speech and hate speech should be restricted."
+  utter_outwardly_Q:
+  - text: "So you think it’s fair for us to minimise one’s entire life just to their outwardly appearances?"
 
-  utter_free_speech_believe_Q:
-  - text: "Do you believe in unrestricted free speech?"
+  utter_criteria_Q:
+  - text: "On what criteria should we judge someone's life?"
 
-  utter_imagine_situation_Q:
-  - text: "Can you imagine a situation where someone’s reputation could be damaged due to a vicious rumour?"
+  utter_complexities_Q:
+  - text: "Can we ever begin to comprehend the complexities that make an individual who they are?"
 
-  utter_rumour_protect_Q:
-  - text: "Shouldn’t there be laws that protect you from such rumours?"
-
-  utter_perfectly_comfortable_Q:
-  - text: "So you would be perfectly comfortable with someone spreading a rumour that you were a kleptomaniac (someone who compulsively steals) in social media."
-
-  utter_abusive_speech_Q:
-  - text: "What about speech that is abusive or incite violence towards you or your loved ones?"
-
-  utter_safe_happy_Q:
-  - text: "I think the speech is a powerful tool. It can impact an individual’s ability to live a safe and happy life. I think such speech should be controlled by a governing body for the safety of their citizens"
-
-  utter_by_majority_Q:
-  - text: "Do you believe that ideas believed by the majority is necessarily the one that is true?"
-
-  utter_flat_earth_Q:
-  - text: "Few hundred years ago the majority believed earth was flat, the sun went around earth and other outdated beliefs. Now we know these to be false. Maybe popularity doesn’t always imply truth"
-
-  utter_informed_decision_Q:
-  - text: "Do you think we need citizens to know the truth to make informed decisions on things like an election, consumer choice and other major decisions?"
-
-  utter_restrict_misinfo_Q:
-  - text: "So should there not be some way to restrict the flow of misinformation?"
-
-  utter_climate_catastrophe_Q:
-  - text: "Don’t you think if people were to believe misinformation that allowed them to undermine scientific views on issues such as a climate catastrophe or pandemic, they would endanger themselves and the everyone around them."
-
-  utter_spreads_fast_Q:
-  - text: "I think there should be a set procedure for information to be disseminated. I also think false information should be censored or restricted until it is deemed true or safe. Information in this age of the internet spreads fast, and is prone to damage society or an individual irreparably. We no longer live in a society where people with a journalism degree are the ones that are qualified to broadcast information, now anyone with a phone has the power to change the world. We need new rules that preserve both the sanctity of truth and the freedom to speak."
-
-  utter_20_years_Q:
-  - text: "Do you believe everything we believe to be right is going to be right 20 years from now?"
-
-  utter_no_vote_Q:
-  - text: "Few years ago women were not allowed to vote, people colour were regarded to be lesser and homosexuality was a crime"
-
-  utter_free_discuss_Q:
-  - text: "Do you believe freely discussing new ideas is essential for us to grow as society?"
-
-  utter_challenge_freely_Q:
-  - text: "Restricting free speech based on our beliefs today limits the introduction of new ideas and therefore limiting the growth of our society. How can we ever know we are right if we don’t allow our thoughts to be challenged freely?"
-
-  utter_new_ideas_Q:
-  - text: "Then how can we ever come across new ideas if they aren’t discussed freely in the public sphere?"
-
-  utter_who_restricts_Q:
-  - text: "Who do you think should restrict our speech?"
-
-  utter_how_right_Q:
-  - text: "How do you know they always have the best intention whilst doing it?"
-
-  utter_censor_certain_Q:
-  - text: "Don’t you think it’s a slippery slope to censor certain speech?"
-
-  utter_horrendous_Q:
-  - text: "I think silencing any type of speech is ultimately dangerous. We as humans are limited and cannot know everything. Freedom to challenge leading ideas is the only way to discover new theories and to move away from outdated ones.  The societies who have restricted such speech have always been destroyed and have done horrendous things to their citizens. We should never fall for this trap."
-
-  utter_totalitarian_Q:
-  - text: "There have been many totalitarian societies in the past who have restricted speech and some more who still do it. Would you prefer to live in these societies?"
-
-  utter_ideas_silenced_Q:
-  - text: "How do you know that your ideas and opinions are the ones that are going to end up being silenced?"
+  utter_statistics:
+  - text: "I think gender, race or religion are good ways to divide our people and useful for giving out statistics about our demography. But we cannot ever expect numbers or stats to tell a story on the individual level. We should never use global statistics to discriminate against an individual no matter what our intention."
 
 session_config:
   session_expiration_time: 60

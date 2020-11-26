@@ -1,0 +1,192 @@
+# ---------------------------------------------------------------------------
+# Empathy Affirmative Action
+# ---------------------------------------------------------------------------
+
+version: "2.0"
+
+stories:
+# start path - Affirmative Action
+- story: start path - Affirmative Action
+  steps:
+  - intent: aff_action_greet
+  - action: utter_greet
+  - action: utter_opening
+  - action: utter_openning_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_aff_act_intro
+  - action: utter_pos_discri_Q
+  - checkpoint: check_pos_discri_Q
+
+# agree with "postive discrimination" - Affirmative Action
+- story: agree with "postive discrimination" - Affirmative Action
+  steps:
+  - checkpoint: check_pos_discri_Q
+  - intent: agree
+  - action: utter_meet_sheela_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_young_indeginous
+  - action: utter_experiences_Q
+  - checkpoint: check_experiences_Q
+
+# disagree with "postive discrimination" - Affirmative Action
+- story: disagree with "postive discrimination" - Affirmative Action
+  steps:
+  - checkpoint: check_pos_discri_Q
+  - intent: disagree
+  - action: utter_meet_robert_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_reasonably_wealthy
+  - action: utter_dreams_Q
+  - checkpoint: check_dreams_Q
+
+# agree with "experiences" - Affirmative Action
+- story: agree with "experiences" - Affirmative Action
+  steps:
+  - checkpoint: check_experiences_Q
+  - intent: agree
+  - action: utter_hardship_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_reward_effort_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_meet_charlie_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_black_man
+  - action: utter_discriminatory_laws_Q
+  - checkpoint: check_discriminatory_laws_Q
+
+# disagree with "experiences" - Affirmative Action
+- story: disagree with "experiences" - Affirmative Action
+  steps:
+  - checkpoint: check_experiences_Q
+  - intent: disagree
+  - action: utter_not_effort_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_meet_charlie_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_black_man
+  - action: utter_discriminatory_laws_Q
+  - checkpoint: check_discriminatory_laws_Q
+
+# agree with "discriminatory laws" - Affirmative Action
+- story: agree with "discriminatory laws" - Affirmative Action
+  steps:
+  - checkpoint: check_discriminatory_laws_Q
+  - intent: agree
+  - action: utter_how_repair_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_i_think_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_closing
+  - action: utter_goodbye
+  - action: utter_post_survey
+  - action: utter_post_survey_redirect
+
+# disagree with "discriminatory laws" - Affirmative Action
+- story: disagree with "discriminatory laws" - Affirmative Action
+  steps:
+  - checkpoint: check_discriminatory_laws_Q
+  - intent: disagree
+  - action: utter_causally_isolated_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_i_think_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_closing
+  - action: utter_goodbye
+  - action: utter_post_survey
+  - action: utter_post_survey_redirect
+
+# agree with "dreams" - Affirmative Action
+- story: agree with "dreams" - Affirmative Action
+  steps:
+  - checkpoint: check_dreams_Q
+  - intent: agree
+  - action: utter_less_qualified_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_meet_conor_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_wealthy_white
+  - action: utter_judging_conor_Q
+  - checkpoint: check_judging_conor_Q
+
+# disagree with "dreams" - Affirmative Action
+- story: disagree with "dreams" - Affirmative Action
+  steps:
+  - checkpoint: check_dreams_Q
+  - intent: disagree
+  - action: utter_eligibility_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_merit_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_meet_conor_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_wealthy_white
+  - action: utter_judging_conor_Q
+  - checkpoint: check_judging_conor_Q
+
+# agree with "judging conor" - Affirmative Action
+- story: agree with "judging conor" - Affirmative Action
+  steps:
+  - checkpoint: check_judging_conor_Q
+  - intent: agree
+  - action: utter_outwardly_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_statistics
+  - action: utter_closing
+  - action: utter_goodbye
+  - action: utter_post_survey
+  - action: utter_post_survey_redirect
+
+# disagree with "judging conor" - Affirmative Action
+- story: disagree with "judging conor" - Affirmative Action
+  steps:
+  - checkpoint: check_judging_conor_Q
+  - intent: disagree
+  - action: utter_criteria_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_complexities_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_statistics
+  - action: utter_closing
+  - action: utter_goodbye
+  - action: utter_post_survey
+  - action: utter_post_survey_redirect
