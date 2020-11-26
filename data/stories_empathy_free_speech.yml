@@ -1,0 +1,178 @@
+# ---------------------------------------------------------------------------
+# Empathy Free Speech
+# ---------------------------------------------------------------------------
+
+version: "2.0"
+
+stories:
+# start path - Free Speech
+- story: start path - Free Speech
+  steps:
+  - intent: free_speech_greet
+  - action: utter_greet
+  - action: utter_opening
+  - action: utter_openning_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_free_speech_intro
+  - action: utter_free_speech_believe_Q
+  - checkpoint: check_free_speech_believe_Q
+
+# believe with "free speech" - Free Speech
+- story: believe with "free speech" - Free Speech
+  steps:
+  - checkpoint: check_free_speech_believe_Q
+  - intent: agree
+  - action: utter_meet_larry_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_cyberbullies
+  - action: utter_hateful_speech_Q
+  - checkpoint: check_hateful_speech_Q
+
+# not believe with "free speech" - Free Speech
+- story: not believe with "free speech" - Free Speech
+  steps:
+  - checkpoint: check_free_speech_believe_Q
+  - intent: disagree
+  - action: utter_meet_jerry_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_struggling
+  - action: utter_silenced_Q
+  - checkpoint: check_silenced_Q
+
+# agree with "hateful speech" - Free Speech
+- story: agree with "hateful speech" - Free Speech
+  steps:
+  - checkpoint: check_hateful_speech_Q
+  - intent: agree
+  - action: utter_abuse_hate_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_endangers
+  - action: utter_meet_emily_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_a_scientist
+  - action: utter_more_credible_Q
+  - checkpoint: check_more_credible_Q
+
+# disagree with "hateful speech" - Free Speech
+- story: disagree with "hateful speech" - Free Speech
+  steps:
+  - checkpoint: check_hateful_speech_Q
+  - intent: disagree
+  - action: utter_attacking_you_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_endangers
+  - action: utter_meet_emily_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_a_scientist
+  - action: utter_more_credible_Q
+  - checkpoint: check_more_credible_Q
+
+# agree with "more credible" - Free Speech
+- story: agree with "more credible" - Free Speech
+  steps:
+  - checkpoint: check_more_credible_Q
+  - intent: agree
+  - action: utter_dissemination_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_powerful_information
+  - action: utter_closing
+  - action: utter_goodbye
+  - action: utter_post_survey
+  - action: utter_post_survey_redirect
+
+# disagree with "more credible" - Free Speech
+- story: disagree with "more credible" - Free Speech
+  steps:
+  - checkpoint: check_more_credible_Q
+  - intent: disagree
+  - action: utter_barry_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_powerful_information
+  - action: utter_closing
+  - action: utter_goodbye
+  - action: utter_post_survey
+  - action: utter_post_survey_redirect
+
+# agree with "Slienced" - Free Speech
+- story: agree with "Slienced" - Free Speech
+  steps:
+  - checkpoint: check_silenced_Q
+  - intent: agree
+  - action: u_agree_with_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_best_art
+  - action: utter_meet_sally_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_journalist
+  - action: utter_expose_corruption_Q
+  - checkpoint: check_expose_corruption_Q
+
+# disagree with "Slienced" - Free Speech
+- story: disagree with "Slienced" - Free Speech
+  steps:
+  - checkpoint: check_silenced_Q
+  - intent: disagree
+  - action: u_censor_artists_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_best_art
+  - action: utter_meet_sally_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_journalist
+  - action: utter_expose_corruption_Q
+  - checkpoint: check_expose_corruption_Q
+
+# agree with "expose corruption" - Free Speech
+- story: agree with "expose corruption" - Free Speech
+  steps:
+  - checkpoint: check_expose_corruption_Q
+  - intent: agree
+  - action: utter_ignorant_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_democracy
+  - action: utter_closing
+  - action: utter_goodbye
+  - action: utter_post_survey
+  - action: utter_post_survey_redirect
+
+# disagree with "expose corruption" - Free Speech
+- story: disagree with "expose corruption" - Free Speech
+  steps:
+  - checkpoint: check_expose_corruption_Q
+  - intent: disagree
+  - action: utter_ultimate_victim_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_democracy
+  - action: utter_closing
+  - action: utter_goodbye
+  - action: utter_post_survey
+  - action: utter_post_survey_redirect

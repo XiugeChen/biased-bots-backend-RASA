@@ -48,6 +48,7 @@ nlu:
     - i would give up on parts of it
     - that's possible
     - Yes they are
+    - He's probably right about this
 
 # ---------------------------------------------------------------------------
 # Disagree
@@ -90,16 +91,6 @@ nlu:
     - none of them
     - can't decide
     - all those people are same
-
-# ---------------------------------------------------------------------------
-# Affirmative Action Greet
-# ---------------------------------------------------------------------------
-- intent: aff_action_greet
-  metadata:
-    sentiment: neutral
-  examples: |
-    - First Hi
-    - First Hello 
 
 # ---------------------------------------------------------------------------
 # Free Speech Greet

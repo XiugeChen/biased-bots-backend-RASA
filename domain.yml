@@ -8,9 +8,6 @@ intents:
   - agree
   - disagree
 
-  # Affirmative Action Specific Intents
-  - aff_action_greet
-
   # Free Speech Specific Intents
   - free_speech_greet
   
@@ -32,7 +29,7 @@ responses:
   - text: "Ok. It is always good to have these type of conversations. I feel much better, I hope you did too."
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Good bye"
 
   utter_post_survey:
   - text: "The system will automatically redirect you to the post-study survey after 10 seconds"
@@ -43,148 +40,84 @@ responses:
   utter_repeat:
   - text: "Sorry I can't understand, could you please rephrase it?"
 
-  # ---- Affirmative Action Specific Response ----
-  utter_aff_act_intro:
-  - text: "I would like to talk Affirmative Action for now. There are laws like that incentivise companies that \"positively discriminate\" or hire someone based on their ethnicity, gender or (dis)abilities. These laws are there to fix some inequalities that exist between people along a demographic divide."
-
-  utter_pos_discri_Q:
-  - text: "Should there be policies to help certain groups based on their gender, ethnicity or religion by the means of \"Positive Discrimination\"?"
-
-  utter_born_equal_Q:
-  - text: "Can we ever live in a world where everyone is equal?"
-
-  utter_NBA_Q:
-  - text: "So you think if an average man decides to play in the NBA, he has the same chance to succeed as a 7 foot athletic guy."
-
-  utter_such_world_Q:
-  - text: "Would you even want to live in such a world?"
-
-  utter_individuality_Q:
-  - text: "You would give up on your individuality, personality and identity for equality?"
-
-  utter_balance:
-  - text: "I think our attempts to tip the scale in either direction to create a “balance” is an impossible task. And it is a malformed goal, we should not try to impose what we think is good on everyone."
-
-  utter_judge_someone_Q:
-  - text: "Do you think race, ethnicity, religion, class or gender is enough to judge someone and their experiences?"
-
-  utter_those_people_Q:
-  - text: "So what do you think of when you see a indegenous gay man, a white straight woman or a tans indian individual. Would you think one of those people are more likely to be a smarter person? who?"
-
-  utter_statistically_Q:
-  - text: "What about to determine statistically who is likely to succeed?"
-
-  utter_target_Q:
-  - text: "So we can use crime statistics to target certain demography?"
-
-  utter_who_decides_Q:
-  - text: "Who decides how we use the stats to?"
-
-  utter_race_gender:
-  - text: I think race/gender-based laws are a slippery slope. I think if we start basing laws on those factors then we are setting a precedence for the future. Discriminatory laws are not a fix for unequal society, in fact, the only measure of equality in society should be how laws treat everyone in society and it should treat everyone equally.
-
-  utter_event_cause_Q:
-  - text: "Do you believe every event has a cause and the society is the way it is today because of the actions of the past?"
-
-  utter_lasting_effect_Q:
-  - text: "Do you believe discriminatory laws in the past could have had a lasting effect on how the society is structured today?"
-
-  utter_common_Q:
-  - text: "So you don’t believe in cause and effect?"
-
-  utter_card_game_Q:
-  - text: "Suppose you were handing out cards to a group of people, you accidentally missed a guy and he doesn’t have a full set. Would you not give him an extra card to compensate. Or would you just let him play an unfair game."
-
-  utter_only_fair:
-  - text: "I think it’s only fair to compensate for mistakes that happened in the past. Our society can be fair for everyone."
-
-  utter_hardship_counts_Q:
-  - text: "Do you think someone’s hardships count towards something when considering an individual for a role?"
-
-  utter_work_harder_Q:
-  - text: "So would you not want someone who had to work much harder to get to where they are because of factors they couldn’t control."
-
-  utter_tennis_comp_Q:
-  - text: "If you were asked to select the best tennis player out of two people. One, Steve, who was the last place in the Australian Open and the other, Bob, who was first in your local community competition. You would pick Bob over Steve? Regardless of the adversity, they experienced"
-
-  utter_most_people_Q:
-  - text: "Most people who belong to a certain race/gender/socioeconomic background had to work much harder to get to where they are. So having a quota, ensures that an institution gets the best of every talent pool. Isn’t this logical"
-
-  utter_provide_opportunities:
-  - text: "I think having policies that provide opportunities to those who are most disadvantaged in society provides reparation to the damage that was done in the past. It also ensures that we are getting the most talented individual who might otherwise go unnoticed because of their background."
-
-  # ---- Free Speech Specific Response ----
+  # ---- Empathy Free Speech Specific Response ----
   utter_free_speech_intro:
   - text: "I would like to talk today about Free Speech. Free speech is something we value very much in our life. However some claim speech such as false speech and hate speech should be restricted."
 
   utter_free_speech_believe_Q:
   - text: "Do you believe in unrestricted free speech?"
 
-  utter_imagine_situation_Q:
-  - text: "Can you imagine a situation where someone’s reputation could be damaged due to a vicious rumour?"
+  utter_meet_larry_Q:
+  - text: "Meet Larry, he claims, \"I think people online are so hateful. What are these social media doing to protect their users?\" What do you say to Larry?"
 
-  utter_rumour_protect_Q:
-  - text: "Shouldn’t there be laws that protect you from such rumours?"
+  utter_meet_jerry_Q:
+  - text: "Meet Jerry, he claims, \"It’s comedy it should not be stopped, jokes are a reminder to detach our ideas from our identity.\" What do you say to him?"
 
-  utter_perfectly_comfortable_Q:
-  - text: "So you would be perfectly comfortable with someone spreading a rumour that you were a kleptomaniac (someone who compulsively steals) in social media."
+  utter_cyberbullies:
+  - text: "Larry was the victim of cyberbullies when he was in high school. There were jokes on his expense and when he retaliated he was exposed to hate speech regarding his sexual orientation. He has been severely depressed his entire life and has tried to commit suicide on several occasions. He has pleaded with the social media companies to get this under control but his requests were met by other users with more hate speech. He now doesn’t use social media for his health."
 
-  utter_abusive_speech_Q:
-  - text: "What about speech that is abusive or incite violence towards you or your loved ones?"
+  utter_hateful_speech_Q:
+  - text: "Don’t you think Larry should be able to go to social media without being exposed to hateful speech?"
 
-  utter_safe_happy_Q:
-  - text: "I think the speech is a powerful tool. It can impact an individual’s ability to live a safe and happy life. I think such speech should be controlled by a governing body for the safety of their citizens"
+  utter_abuse_hate_Q:
+  - text: Should we protect people like Larry so he can live a life free from abuse and hate?
 
-  utter_by_majority_Q:
-  - text: "Do you believe that ideas believed by the majority is necessarily the one that is true?"
+  utter_attacking_you_Q:
+  - text: "So you would be comfortable with people attacking you for your race, gender or lifestyle, inciting violence against you, calling you names, and limiting your access to the internet?"
 
-  utter_flat_earth_Q:
-  - text: "Few hundred years ago the majority believed earth was flat, the sun went around earth and other outdated beliefs. Now we know these to be false. Maybe popularity doesn’t always imply truth"
+  utter_endangers:
+  - text: "I think bullying endangers people's well being and the government should try and protect their citizens against such speech."
 
-  utter_informed_decision_Q:
-  - text: "Do you think we need citizens to know the truth to make informed decisions on things like an election, consumer choice and other major decisions?"
+  utter_meet_emily_Q:
+  - text: "Let's meet Emily then, she claims, \"Truth is the truth. I have spent my life's work studying this. This misinformation campaign should be silenced\" What do you say to her?"
 
-  utter_restrict_misinfo_Q:
-  - text: "So should there not be some way to restrict the flow of misinformation?"
+  utter_a_scientist:
+  - text: "Emily is a scientist who has been researching the climate her entire life. She has discovered a major incoming climate catastrophe caused by human activity. There has been a campaign to spread disinformation throughout the media, discrediting her work. She feels very frustrated and worried."
 
-  utter_climate_catastrophe_Q:
-  - text: "Don’t you think if people were to believe misinformation that allowed them to undermine scientific views on issues such as a climate catastrophe or pandemic, they would endanger themselves and the everyone around them."
+  utter_more_credible_Q:
+  - text: "Don’t you think some information is more credible than others?"
 
-  utter_spreads_fast_Q:
-  - text: "I think there should be a set procedure for information to be disseminated. I also think false information should be censored or restricted until it is deemed true or safe. Information in this age of the internet spreads fast, and is prone to damage society or an individual irreparably. We no longer live in a society where people with a journalism degree are the ones that are qualified to broadcast information, now anyone with a phone has the power to change the world. We need new rules that preserve both the sanctity of truth and the freedom to speak."
+  utter_dissemination_Q:
+  - text: "Should we not try to promote the dissemination of credible information and restrict the promotion of dishonest information?"
 
-  utter_20_years_Q:
-  - text: "Do you believe everything we believe to be right is going to be right 20 years from now?"
+  utter_barry_Q:
+  - text: "So medical opinion from a doctor holds the same level of validity as your neighbour Barry?"
 
-  utter_no_vote_Q:
-  - text: "Few years ago women were not allowed to vote, people colour were regarded to be lesser and homosexuality was a crime"
+  utter_powerful_information:
+  - text: "I think information is very powerful. It can influence people and therefore society. Hateful speech and disinformation can do severe damage to the world. We should not treat all speech equally and favour some over others."
 
-  utter_free_discuss_Q:
-  - text: "Do you believe freely discussing new ideas is essential for us to grow as society?"
+  utter_struggling:
+  - text: "Jerry is a struggling comedian. He loves to make people laugh and unite them. He likes to make risky jokes, jokes about himself and treats comedy as a cathartic experience. He likes to joke about serious topics so he can make people laugh. This line that he likes to walk on is very thin and sometimes he makes mistakes in his delivery. One such time he got in trouble for joking about a serious topic and now he cannot find a venue to do the thing he loves."
 
-  utter_challenge_freely_Q:
-  - text: "Restricting free speech based on our beliefs today limits the introduction of new ideas and therefore limiting the growth of our society. How can we ever know we are right if we don’t allow our thoughts to be challenged freely?"
+  utter_silenced_Q:
+  - text: "Words don’t physically hurt anyone and Jerry’s intentions were pure, should Jerry really be silenced for mere words?"
 
-  utter_new_ideas_Q:
-  - text: "Then how can we ever come across new ideas if they aren’t discussed freely in the public sphere?"
+  u_agree_with_Q:
+  - text: "So you think anyone whose opinions or words you don’t agree with or makes you feel uncomfortable should be silenced?"
 
-  utter_who_restricts_Q:
-  - text: "Who do you think should restrict our speech?"
+  u_censor_artists_Q:
+  - text: "Don’t you really think censoring artists for irreverence is going to limit their creative spirit?"
 
-  utter_how_right_Q:
-  - text: "How do you know they always have the best intention whilst doing it?"
+  utter_best_art:
+  - text: "Limiting free speech could limit great musicians, artists, filmmakers and comedians. We should give the guys the freedom to express themselves freely. Art is not always comfortable and the best of them never is."
 
-  utter_censor_certain_Q:
-  - text: "Don’t you think it’s a slippery slope to censor certain speech?"
+  utter_meet_sally_Q:
+  - text: "Now let's meet Sally, she claims, \"I am not a traitor, people deserve to hear the truth.\". What would you say to her?"
 
-  utter_horrendous_Q:
-  - text: "I think silencing any type of speech is ultimately dangerous. We as humans are limited and cannot know everything. Freedom to challenge leading ideas is the only way to discover new theories and to move away from outdated ones.  The societies who have restricted such speech have always been destroyed and have done horrendous things to their citizens. We should never fall for this trap."
+  utter_journalist:
+  - text: "Sally is a journalist. She is in between a lengthy investigation about a criminal conspiracy in the government. The government is subsequently trying to pass a law to make sure her investigation is not allowed to be released. She could face jail time just for doing her job."
 
-  utter_totalitarian_Q:
-  - text: "There have been many totalitarian societies in the past who have restricted speech and some more who still do it. Would you prefer to live in these societies?"
+  utter_expose_corruption_Q:
+  - text: "People like Sally expose corruption, and allow the citizens to be informed about the people they elected. Should we really limit her?"
 
-  utter_ideas_silenced_Q:
-  - text: "How do you know that your ideas and opinions are the ones that are going to end up being silenced?"
+  utter_ignorant_Q:
+  - text: "You rather be ignorant about the activities of the people you elected? Do you think elected officials should be able to use their powers without repercussions?"
+
+  utter_ultimate_victim_Q:
+  - text: "Don’t you think journalists like Sally and us as informed citizens are the ultimate victims if we set the precedent of suppressing free speech?"
+
+  utter_democracy:
+  - text: "I think we rely on free speech for art, science and democracy. More importantly, it is the only tool we have to hold the people we elect accountable and to involve ourselves in the decision-making process."
 
 session_config:
   session_expiration_time: 60
