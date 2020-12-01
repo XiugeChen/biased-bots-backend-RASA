@@ -15,6 +15,8 @@ stories:
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_aff_act_intro
   - action: utter_pos_discri_Q
   - checkpoint: check_pos_discri_Q
@@ -23,11 +25,16 @@ stories:
 - story: agree with "postive discrimination" - Affirmative Action
   steps:
   - checkpoint: check_pos_discri_Q
-  - intent: agree
+  - or:
+    - intent: agree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_meet_sheela_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_young_indeginous
   - action: utter_experiences_Q
   - checkpoint: check_experiences_Q
@@ -41,6 +48,8 @@ stories:
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_reasonably_wealthy
   - action: utter_dreams_Q
   - checkpoint: check_dreams_Q
@@ -49,19 +58,28 @@ stories:
 - story: agree with "experiences" - Affirmative Action
   steps:
   - checkpoint: check_experiences_Q
-  - intent: agree
+  - or:
+    - intent: agree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_hardship_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_reward_effort_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_meet_charlie_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_black_man
   - action: utter_discriminatory_laws_Q
   - checkpoint: check_discriminatory_laws_Q
@@ -75,10 +93,14 @@ stories:
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_meet_charlie_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_black_man
   - action: utter_discriminatory_laws_Q
   - checkpoint: check_discriminatory_laws_Q
@@ -87,15 +109,22 @@ stories:
 - story: agree with "discriminatory laws" - Affirmative Action
   steps:
   - checkpoint: check_discriminatory_laws_Q
-  - intent: agree
+  - or:
+    - intent: agree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_how_repair_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_i_think_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_closing
   - action: utter_goodbye
   - action: utter_post_survey
@@ -110,10 +139,14 @@ stories:
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_i_think_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_closing
   - action: utter_goodbye
   - action: utter_post_survey
@@ -123,15 +156,22 @@ stories:
 - story: agree with "dreams" - Affirmative Action
   steps:
   - checkpoint: check_dreams_Q
-  - intent: agree
+  - or:
+    - intent: agree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_less_qualified_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_meet_conor_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_wealthy_white
   - action: utter_judging_conor_Q
   - checkpoint: check_judging_conor_Q
@@ -145,14 +185,20 @@ stories:
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_merit_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_meet_conor_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_wealthy_white
   - action: utter_judging_conor_Q
   - checkpoint: check_judging_conor_Q
@@ -161,11 +207,16 @@ stories:
 - story: agree with "judging conor" - Affirmative Action
   steps:
   - checkpoint: check_judging_conor_Q
-  - intent: agree
+  - or:
+    - intent: agree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_outwardly_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_statistics
   - action: utter_closing
   - action: utter_goodbye
@@ -181,10 +232,14 @@ stories:
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_complexities_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_statistics
   - action: utter_closing
   - action: utter_goodbye
