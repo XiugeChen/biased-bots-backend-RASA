@@ -1,0 +1,146 @@
+# ---------------------------------------------------------------------------
+# Diplomatic Affirmative Action
+# ---------------------------------------------------------------------------
+
+version: "2.0"
+
+stories:
+# start path - Affirmative Action
+- story: start path - Affirmative Action
+  steps:
+  - intent: aff_action_greet
+  - action: utter_greet
+  - action: utter_opening
+  - action: utter_openning_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_aff_act_intro
+  - action: utter_pos_discri_Q
+  - checkpoint: check_pos_discri_Q
+
+# agree with "postive discrimination" - Affirmative Action
+- story: agree with "postive discrimination" - Affirmative Action
+  steps:
+  - checkpoint: check_pos_discri_Q
+  - intent: agree
+  - action: utter_more_privileged_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_our_government_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_not_target
+  - action: utter_held_back_Q
+  - checkpoint: check_held_back_Q
+
+# disagree with "postive discrimination" - Affirmative Action
+- story: disagree with "postive discrimination" - Affirmative Action
+  steps:
+  - checkpoint: check_pos_discri_Q
+  - intent: disagree
+  - action: utter_worthy_skepticism_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_meritocracy_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_same_skill
+  - action: utter_different_family_Q
+  - checkpoint: check_different_family_Q
+
+# have been "held back" - Affirmative Action
+- story: have been "held back" - Affirmative Action
+  steps:
+  - checkpoint: check_held_back_Q
+  - intent: agree
+  - action: utter_aff_pos_make_feel_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_very_hard
+  - action: utter_aff_you_think_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_aff_solution_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_closing
+  - action: utter_goodbye
+  - action: utter_post_survey
+  - action: utter_post_survey_redirect
+
+# not have been "held back" - Affirmative Action
+- story: not have been "held back" - Affirmative Action
+  steps:
+  - checkpoint: check_held_back_Q
+  - intent: disagree
+  - action: utter_aff_pos_would_feel
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_very_hard
+  - action: utter_aff_you_think_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_aff_solution_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_closing
+  - action: utter_goodbye
+  - action: utter_post_survey
+  - action: utter_post_survey_redirect
+
+# have been "different family" - Affirmative Action
+- story: have been "different family" - Affirmative Action
+  steps:
+  - checkpoint: check_different_family_Q
+  - intent: agree
+  - action: utter_aff_neg_make_feel_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_very_hard
+  - action: utter_aff_you_think_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_aff_solution_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_closing
+  - action: utter_goodbye
+  - action: utter_post_survey
+  - action: utter_post_survey_redirect
+
+# not have been "different family" - Affirmative Action
+- story: not have been "different family" - Affirmative Action
+  steps:
+  - checkpoint: check_different_family_Q
+  - intent: disagree
+  - action: utter_aff_neg_would_feel_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_very_hard
+  - action: utter_aff_you_think_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_aff_solution_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_closing
+  - action: utter_goodbye
+  - action: utter_post_survey
+  - action: utter_post_survey_redirect

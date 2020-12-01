@@ -1,0 +1,146 @@
+# ---------------------------------------------------------------------------
+# Diplomatic Free Speech
+# ---------------------------------------------------------------------------
+
+version: "2.0"
+
+stories:
+# start path - Free Speech
+- story: start path - Free Speech
+  steps:
+  - intent: free_speech_greet
+  - action: utter_greet
+  - action: utter_opening
+  - action: utter_openning_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_free_speech_intro
+  - action: utter_free_speech_believe_Q
+  - checkpoint: check_free_speech_believe_Q
+
+# believe with "free speech" - Free Speech
+- story: believe with "free speech" - Free Speech
+  steps:
+  - checkpoint: check_free_speech_believe_Q
+  - intent: agree
+  - action: utter_cornerstone_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_journalists_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_spread_freely
+  - action: utter_hate_personally_Q
+  - checkpoint: check_hate_personally_Q
+
+# not believe with "free speech" - Free Speech
+- story: not believe with "free speech" - Free Speech
+  steps:
+  - checkpoint: check_free_speech_believe_Q
+  - intent: disagree
+  - action: utter_destabilize_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_serious_ways_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_too_big
+  - action: utter_judgement_ridicule_Q
+  - checkpoint: check_judgement_ridicule_Q
+
+# have been "hate personally" - Free Speech
+- story: have been "hate personally" - Free Speech
+  steps:
+  - checkpoint: check_hate_personally_Q
+  - intent: agree
+  - action: utter_pos_make_feel_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_power_speech
+  - action: utter_you_think_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_solution_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_closing
+  - action: utter_goodbye
+  - action: utter_post_survey
+  - action: utter_post_survey_redirect
+
+# not have been "hate personally" - Free Speech
+- story: not have been "hate personally" - Free Speech
+  steps:
+  - checkpoint: check_hate_personally_Q
+  - intent: disagree
+  - action: utter_pos_would_feel_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_power_speech
+  - action: utter_you_think_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_solution_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_closing
+  - action: utter_goodbye
+  - action: utter_post_survey
+  - action: utter_post_survey_redirect
+  
+# have been "judgement ridicule" - Free Speech
+- story: have been "judgement ridicule" - Free Speech
+  steps:
+  - checkpoint: check_judgement_ridicule_Q
+  - intent: agree
+  - action: utter_neg_make_feel_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_power_speech
+  - action: utter_you_think_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_solution_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_closing
+  - action: utter_goodbye
+  - action: utter_post_survey
+  - action: utter_post_survey_redirect
+
+# not have been "judgement ridicule" - Free Speech
+- story: not have been "judgement ridicule" - Free Speech
+  steps:
+  - checkpoint: check_judgement_ridicule_Q
+  - intent: disagree
+  - action: utter_neg_would_feel_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_power_speech
+  - action: utter_you_think_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_solution_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_closing
+  - action: utter_goodbye
+  - action: utter_post_survey
+  - action: utter_post_survey_redirect

@@ -1,6 +1,6 @@
 # ---------------------------------------------------------------------------
-# Free Speech
-# Basic testing stores for free speech
+# Diplomatic Affirmative Action
+# Basic testing stores for diplomatic affirmative actions
 # ---------------------------------------------------------------------------
 
 version: "2.0"
@@ -10,54 +10,44 @@ stories:
 - story: all agree
   steps:
   - user: |
-      Second Hi
-    intent: free_speech_greet
+      First Hi
+    intent: aff_action_greet
   - action: utter_greet
   - action: utter_opening
   - action: utter_openning_Q
   - user: |
       Yes exactly!
     intent: agree
-  - action: utter_free_speech_intro
-  - action: utter_free_speech_believe_Q
+  - action: utter_aff_act_intro
+  - action: utter_pos_discri_Q
   - user: |
-      Yes I believe
+      Yes I think so
     intent: agree
-  - action: utter_imagine_situation_Q
+  - action: utter_more_privileged_Q
   - user: |
       Yes why not?
     intent: agree
-  - action: utter_rumour_protect_Q
+  - action: utter_our_government_Q
   - user: |
       That's possible
     intent: agree
-  - action: utter_abusive_speech_Q
+  - action: utter_not_target
+  - action: utter_held_back_Q
   - user: |
-      Yes I would
+      Yes I have
     intent: agree
-  - action: utter_safe_happy_Q
+  - action: utter_pos_make_feel_Q
   - user: |
-      True 
+      Not very good 
+    intent: disagree
+  - action: utter_very_hard
+  - action: utter_you_think_Q
+  - user: |
+      Yes you are right
     intent: agree
-  - action: utter_by_majority_Q
+  - action: utter_solution_Q
   - user: |
-      Yes they are
-    intent: agree
-  - action: utter_flat_earth_Q
-  - user: |
-      Yes
-    intent: agree
-  - action: utter_informed_decision_Q
-  - user: |
-      Fair enough
-    intent: agree
-  - action: utter_restrict_misinfo_Q
-  - user: |
-      Okay
-    intent: agree
-  - action: utter_spreads_fast_Q
-  - user: |
-      Agree
+      Yes I think so
     intent: agree
   - action: utter_closing
   - action: utter_goodbye
