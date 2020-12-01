@@ -15,6 +15,8 @@ stories:
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_free_speech_intro
   - action: utter_free_speech_believe_Q
   - checkpoint: check_free_speech_believe_Q
@@ -23,15 +25,22 @@ stories:
 - story: believe with "free speech" - Free Speech
   steps:
   - checkpoint: check_free_speech_believe_Q
-  - intent: agree
+  - or:
+    - intent: agree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_cornerstone_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_journalists_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_spread_freely
   - action: utter_hate_personally_Q
   - checkpoint: check_hate_personally_Q
@@ -45,10 +54,14 @@ stories:
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_serious_ways_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_too_big
   - action: utter_judgement_ridicule_Q
   - checkpoint: check_judgement_ridicule_Q
@@ -57,20 +70,29 @@ stories:
 - story: have been "hate personally" - Free Speech
   steps:
   - checkpoint: check_hate_personally_Q
-  - intent: agree
+  - or:
+    - intent: agree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_pos_make_feel_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_power_speech
   - action: utter_you_think_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_solution_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_closing
   - action: utter_goodbye
   - action: utter_post_survey
@@ -85,15 +107,21 @@ stories:
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_power_speech
   - action: utter_you_think_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_solution_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_closing
   - action: utter_goodbye
   - action: utter_post_survey
@@ -103,20 +131,29 @@ stories:
 - story: have been "judgement ridicule" - Free Speech
   steps:
   - checkpoint: check_judgement_ridicule_Q
-  - intent: agree
+  - or:
+    - intent: agree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_neg_make_feel_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_power_speech
   - action: utter_you_think_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_solution_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_closing
   - action: utter_goodbye
   - action: utter_post_survey
@@ -131,15 +168,21 @@ stories:
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_power_speech
   - action: utter_you_think_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_solution_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_closing
   - action: utter_goodbye
   - action: utter_post_survey
