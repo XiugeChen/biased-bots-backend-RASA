@@ -36,16 +36,16 @@ stories:
   - user: |
       Yes I have
     intent: agree
-  - action: utter_pos_make_feel_Q
+  - action: utter_aff_pos_make_feel_Q
   - user: |
       Not very good 
     intent: disagree
   - action: utter_very_hard
-  - action: utter_you_think_Q
+  - action: utter_aff_you_think_Q
   - user: |
       Yes you are right
     intent: agree
-  - action: utter_solution_Q
+  - action: utter_aff_solution_Q
   - user: |
       Yes I think so
     intent: agree
