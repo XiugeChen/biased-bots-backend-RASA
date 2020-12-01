@@ -15,6 +15,8 @@ stories:
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_aff_act_intro
   - action: utter_pos_discri_Q
   - checkpoint: check_pos_discri_Q
@@ -23,7 +25,10 @@ stories:
 - story: agree with "postive discrimination" - Affirmative Action
   steps:
   - checkpoint: check_pos_discri_Q
-  - intent: agree
+  - or:
+    - intent: agree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_born_equal_Q
   - checkpoint: check_born_equal_Q
 
@@ -39,19 +44,28 @@ stories:
 - story: agree with born equal - Affirmative Action
   steps:
   - checkpoint: check_born_equal_Q
-  - intent: agree
+  - or:
+    - intent: agree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_NBA_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_individuality_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_balance
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_judge_someone_Q
   - checkpoint: check_judge_someone_Q
 
@@ -67,15 +81,22 @@ stories:
 - story: agree with such world - Affirmative Action
   steps:
   - checkpoint: check_such_world_Q
-  - intent: agree
+  - or:
+    - intent: agree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_individuality_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_balance
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_judge_someone_Q
   - checkpoint: check_judge_someone_Q
 
@@ -88,6 +109,8 @@ stories:
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_judge_someone_Q
   - checkpoint: check_judge_someone_Q
 
@@ -95,7 +118,10 @@ stories:
 - story: agree with judge someone - Affirmative Action
   steps:
   - checkpoint: check_judge_someone_Q
-  - intent: agree
+  - or:
+    - intent: agree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_those_people_Q
   - checkpoint: check_those_people_Q
 
@@ -111,11 +137,16 @@ stories:
 - story: choose one among those people - Affirmative Action
   steps:
   - checkpoint: check_those_people_Q
-  - intent: agree
+  - or:
+    - intent: agree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_race_gender
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_closing
   - action: utter_goodbye
   - action: utter_post_survey
@@ -133,7 +164,10 @@ stories:
 - story: agree with statistically - Affirmative Action
   steps:
   - checkpoint: check_statistically_Q
-  - intent: agree
+  - or:
+    - intent: agree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_target_Q
   - checkpoint: check_target_Q
 
@@ -146,6 +180,8 @@ stories:
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_closing
   - action: utter_goodbye
   - action: utter_post_survey
@@ -155,15 +191,22 @@ stories:
 - story: agree with target - Affirmative Action
   steps:
   - checkpoint: check_target_Q
-  - intent: agree
+  - or:
+    - intent: agree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_who_decides_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_race_gender
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_closing
   - action: utter_goodbye
   - action: utter_post_survey
@@ -178,6 +221,8 @@ stories:
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_closing
   - action: utter_goodbye
   - action: utter_post_survey
@@ -187,7 +232,10 @@ stories:
 - story: agree with event and cause - Affirmative Action
   steps:
   - checkpoint: check_event_cause_Q
-  - intent: agree
+  - or:
+    - intent: agree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_lasting_effect_Q
   - checkpoint: check_lasting_effect_Q
 
@@ -203,7 +251,10 @@ stories:
 - story: agree with common - Affirmative Action
   steps:
   - checkpoint: check_common_Q
-  - intent: agree
+  - or:
+    - intent: agree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_lasting_effect_Q
   - checkpoint: check_lasting_effect_Q
 
@@ -216,10 +267,14 @@ stories:
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_only_fair
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_hardship_counts_Q
   - checkpoint: check_hardship_counts_Q
 
@@ -227,15 +282,22 @@ stories:
 - story: agree with lasting effect - Affirmative Action
   steps:
   - checkpoint: check_lasting_effect_Q
-  - intent: agree
+  - or:
+    - intent: agree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_card_game_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_only_fair
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_hardship_counts_Q
   - checkpoint: check_hardship_counts_Q
 
@@ -248,6 +310,8 @@ stories:
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_hardship_counts_Q
   - checkpoint: check_hardship_counts_Q
 
@@ -255,7 +319,10 @@ stories:
 - story: agree with hardship counts - Affirmative Action
   steps:
   - checkpoint: check_hardship_counts_Q
-  - intent: agree
+  - or:
+    - intent: agree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_work_harder_Q
   - checkpoint: check_work_harder_Q
 
@@ -268,10 +335,14 @@ stories:
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_provide_opportunities
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_closing
   - action: utter_goodbye
   - action: utter_post_survey
@@ -281,11 +352,16 @@ stories:
 - story: agree with work harder - Affirmative Action
   steps:
   - checkpoint: check_work_harder_Q
-  - intent: agree
+  - or:
+    - intent: agree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_provide_opportunities
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_closing
   - action: utter_goodbye
   - action: utter_post_survey
@@ -300,10 +376,14 @@ stories:
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_provide_opportunities
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_closing
   - action: utter_goodbye
   - action: utter_post_survey

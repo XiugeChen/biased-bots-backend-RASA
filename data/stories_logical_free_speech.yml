@@ -15,6 +15,8 @@ stories:
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_free_speech_intro
   - action: utter_free_speech_believe_Q
   - checkpoint: check_free_speech_believe_Q
@@ -23,7 +25,10 @@ stories:
 - story: believe with "free speech" - Free Speech
   steps:
   - checkpoint: check_free_speech_believe_Q
-  - intent: agree
+  - or:
+    - intent: agree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_imagine_situation_Q
   - checkpoint: check_imagine_situation_Q
 
@@ -39,19 +44,28 @@ stories:
 - story: agree with "imagine situation" - Free Speech
   steps:
   - checkpoint: check_imagine_situation_Q
-  - intent: agree
+  - or:
+    - intent: agree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_rumour_protect_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_abusive_speech_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_safe_happy_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_by_majority_Q
   - checkpoint: check_by_majority_Q
 
@@ -64,14 +78,20 @@ stories:
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_abusive_speech_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_safe_happy_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_by_majority_Q
   - checkpoint: check_by_majority_Q
 
@@ -79,11 +99,16 @@ stories:
 - story: agree with "by majority" - Free Speech
   steps:
   - checkpoint: check_by_majority_Q
-  - intent: agree
+  - or:
+    - intent: agree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_flat_earth_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_informed_decision_Q
   - checkpoint: check_informed_decision_Q
 
@@ -99,15 +124,22 @@ stories:
 - story: agree with "informed decision" - Free Speech
   steps:
   - checkpoint: check_informed_decision_Q
-  - intent: agree
+  - or:
+    - intent: agree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_restrict_misinfo_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_spreads_fast_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_closing
   - action: utter_goodbye
   - action: utter_post_survey
@@ -122,10 +154,14 @@ stories:
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_spreads_fast_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_closing
   - action: utter_goodbye
   - action: utter_post_survey
@@ -135,11 +171,16 @@ stories:
 - story: agree with "20 years" - Free Speech
   steps:
   - checkpoint: check_utter_20_years_Q
-  - intent: agree
+  - or:
+    - intent: agree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_no_vote_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_free_discuss_Q
   - checkpoint: check_free_discuss_Q
 
@@ -155,19 +196,28 @@ stories:
 - story: agree with "free discuss" - Free Speech
   steps:
   - checkpoint: check_free_discuss_Q
-  - intent: agree
+  - or:
+    - intent: agree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_challenge_freely_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_who_restricts_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_how_right_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_censor_certain_Q
   - checkpoint: check_censor_certain_Q
 
@@ -180,14 +230,20 @@ stories:
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_who_restricts_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_how_right_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_censor_certain_Q
   - checkpoint: check_censor_certain_Q
 
@@ -195,11 +251,16 @@ stories:
 - story: agree with "censor certain" - Free Speech
   steps:
   - checkpoint: check_censor_certain_Q
-  - intent: agree
+  - or:
+    - intent: agree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_horrendous_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_closing
   - action: utter_goodbye
   - action: utter_post_survey
@@ -217,15 +278,22 @@ stories:
 - story: agree with "totalitarian" - Free Speech
   steps:
   - checkpoint: check_totalitarian_Q
-  - intent: agree
+  - or:
+    - intent: agree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_ideas_silenced_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_horrendous_Q
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_closing
   - action: utter_goodbye
   - action: utter_post_survey
@@ -240,6 +308,8 @@ stories:
   - or:
     - intent: agree
     - intent: disagree
+    - intent: aff_action_greet
+    - intent: free_speech_greet
   - action: utter_closing
   - action: utter_goodbye
   - action: utter_post_survey
