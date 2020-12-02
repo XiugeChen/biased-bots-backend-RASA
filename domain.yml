@@ -93,7 +93,7 @@ responses:
   - text: "So you don’t believe in cause and effect?"
 
   utter_card_game_Q:
-  - text: "Suppose you were handing out cards to a group of people, you accidentally missed a guy and he doesn’t have a full set. Would you not give him an extra card to compensate. Or would you just let him play an unfair game."
+  - text: "Suppose you were handing out cards to a group of people, you accidentally missed a guy and he doesn’t have a full set. Would you give him an extra card to compensate. Or would you just let him play an unfair game."
 
   utter_only_fair:
   - text: "I think it’s only fair to compensate for mistakes that happened in the past. Our society can be fair for everyone."
