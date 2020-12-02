@@ -37,6 +37,9 @@ stories:
       Yes absolutely
     intent: agree
   - action: utter_endangers
+  - user: |
+      Yes we should 
+    intent: agree
   - action: utter_meet_emily_Q
   - user: |
       Okay 
@@ -51,6 +54,9 @@ stories:
       Yes we should
     intent: agree
   - action: utter_powerful_information
+  - user: |
+      Okay
+    intent: agree
   - action: utter_closing
   - action: utter_goodbye
   - action: utter_post_survey
