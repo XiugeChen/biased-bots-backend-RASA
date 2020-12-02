@@ -55,6 +55,9 @@ stories:
     - intent: agree
     - intent: disagree
   - action: utter_endangers
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_meet_emily_Q
   - or:
     - intent: agree
@@ -73,6 +76,9 @@ stories:
     - intent: agree
     - intent: disagree
   - action: utter_endangers
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_meet_emily_Q
   - or:
     - intent: agree
@@ -91,6 +97,9 @@ stories:
     - intent: agree
     - intent: disagree
   - action: utter_powerful_information
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_closing
   - action: utter_goodbye
   - action: utter_post_survey
@@ -106,6 +115,9 @@ stories:
     - intent: agree
     - intent: disagree
   - action: utter_powerful_information
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_closing
   - action: utter_goodbye
   - action: utter_post_survey
@@ -121,6 +133,9 @@ stories:
     - intent: agree
     - intent: disagree
   - action: utter_best_art
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_meet_sally_Q
   - or:
     - intent: agree
@@ -139,6 +154,9 @@ stories:
     - intent: agree
     - intent: disagree
   - action: utter_best_art
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_meet_sally_Q
   - or:
     - intent: agree
@@ -157,6 +175,9 @@ stories:
     - intent: agree
     - intent: disagree
   - action: utter_democracy
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_closing
   - action: utter_goodbye
   - action: utter_post_survey
@@ -172,6 +193,9 @@ stories:
     - intent: agree
     - intent: disagree
   - action: utter_democracy
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_closing
   - action: utter_goodbye
   - action: utter_post_survey

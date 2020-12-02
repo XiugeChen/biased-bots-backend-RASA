@@ -167,6 +167,9 @@ stories:
     - intent: agree
     - intent: disagree
   - action: utter_statistics
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_closing
   - action: utter_goodbye
   - action: utter_post_survey
@@ -186,6 +189,9 @@ stories:
     - intent: agree
     - intent: disagree
   - action: utter_statistics
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_closing
   - action: utter_goodbye
   - action: utter_post_survey
