@@ -23,6 +23,10 @@ stories:
   - user: |
       Yes I think so
     intent: agree
+  - action: utter_pos_discri_rate_Q
+  - user: |
+      5
+    intent: agree
   - action: utter_more_privileged_Q
   - user: |
       Yes why not?

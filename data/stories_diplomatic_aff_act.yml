@@ -24,6 +24,10 @@ stories:
   steps:
   - checkpoint: check_pos_discri_Q
   - intent: agree
+  - action: utter_pos_discri_rate_Q
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_more_privileged_Q
   - or:
     - intent: agree
@@ -41,6 +45,10 @@ stories:
   steps:
   - checkpoint: check_pos_discri_Q
   - intent: disagree
+  - action: utter_pos_discri_rate_Q
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_worthy_skepticism_Q
   - or:
     - intent: agree

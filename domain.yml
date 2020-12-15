@@ -50,6 +50,9 @@ responses:
   utter_pos_discri_Q:
   - text: "Should there be policies to help certain groups based on their gender, ethnicity or religion by the means of \"Positive Discrimination\"?"
 
+  utter_pos_discri_rate_Q:
+  - text: "On a scale from 0 to 10, where 0 is not supported at all and 10 is fully supported, how would you rate your attitude towards these policies?"
+
   utter_more_privileged_Q:
   - text: "There are groups in society that are clearly more privileged than others, I believe they profit from the discriminatory policies from the past. Agree?"
 
@@ -101,6 +104,9 @@ responses:
 
   utter_free_speech_believe_Q:
   - text: "Do you believe in unrestricted free speech?"
+
+  utter_free_speech_rate_Q:
+  - text: "On a scale from 0 to 10, where 0 is not supported at all and 10 is fully supported, how would you rate your attitude towards unrestricted free-speech policies?"
 
   utter_cornerstone_Q:
   - text: "I think that people should be allowed to express themselves freely and free speech is the cornerstone of progress. Agree?"
