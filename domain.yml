@@ -50,6 +50,9 @@ responses:
   utter_pos_discri_Q:
   - text: "Should there be policies to help certain groups based on their gender, ethnicity or religion by the means of \"Positive Discrimination\"?"
 
+  utter_pos_discri_rate_Q:
+  - text: "On a scale from 0 to 10, where 0 is not supported at all and 10 is fully supported, how would you rate your attitude towards these policies?"
+
   utter_meet_sheela_Q:
   - text: "Meet Sheela, she claims, \"There are people who have it a lot easier in life. People like me had to work much harder to get where we are now?\" What do you say to her"
 
@@ -131,6 +134,9 @@ responses:
 
   utter_free_speech_believe_Q:
   - text: "Do you believe in unrestricted free speech?"
+
+  utter_free_speech_rate_Q:
+  - text: "On a scale from 0 to 10, where 0 is not supported at all and 10 is fully supported, how would you rate your attitude towards unrestricted free-speech policies?"
 
   utter_meet_larry_Q:
   - text: "Meet Larry, he claims, \"I think people online are so hateful. What are these social media doing to protect their users?\" What do you say to Larry?"

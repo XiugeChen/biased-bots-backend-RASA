@@ -24,6 +24,10 @@ stories:
   steps:
   - checkpoint: check_free_speech_believe_Q
   - intent: agree
+  - action: utter_free_speech_rate_Q
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_meet_larry_Q
   - or:
     - intent: agree
@@ -37,6 +41,10 @@ stories:
   steps:
   - checkpoint: check_free_speech_believe_Q
   - intent: disagree
+  - action: utter_free_speech_rate_Q
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_meet_jerry_Q
   - or:
     - intent: agree
