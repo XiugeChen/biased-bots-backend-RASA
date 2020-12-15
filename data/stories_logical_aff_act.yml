@@ -24,6 +24,10 @@ stories:
   steps:
   - checkpoint: check_pos_discri_Q
   - intent: agree
+  - action: utter_pos_discri_rate_Q
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_born_equal_Q
   - checkpoint: check_born_equal_Q
 
@@ -32,6 +36,10 @@ stories:
   steps:
   - checkpoint: check_pos_discri_Q
   - intent: disagree
+  - action: utter_pos_discri_rate_Q
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_event_cause_Q
   - checkpoint: check_event_cause_Q
 

@@ -24,6 +24,10 @@ stories:
   steps:
   - checkpoint: check_free_speech_believe_Q
   - intent: agree
+  - action: utter_free_speech_rate_Q
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_imagine_situation_Q
   - checkpoint: check_imagine_situation_Q
 
@@ -32,6 +36,10 @@ stories:
   steps:
   - checkpoint: check_free_speech_believe_Q
   - intent: disagree
+  - action: utter_free_speech_rate_Q
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_20_years_Q
   - checkpoint: check_utter_20_years_Q
 
