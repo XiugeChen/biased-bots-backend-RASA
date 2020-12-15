@@ -29,7 +29,7 @@ stories:
     intent: agree
   - action: utter_meet_larry_Q
   - user: |
-      He's probably correct about this
+      He's probably right about this
     intent: agree
   - action: utter_cyberbullies
   - action: utter_hateful_speech_Q
