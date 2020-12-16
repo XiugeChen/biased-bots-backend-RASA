@@ -23,16 +23,16 @@ responses:
   - text: "Hey, I'm Biasy. I hope you are well."
 
   utter_opening:
-  - text: "Well, I hope I can trouble you with a small conversation. I am interested having a civil conversation about various hot button topics to people just like you."
+  - text: "I hope I can trouble you with a small conversation. I am interested in talking about different hot button topics with people just like you."
 
   utter_openning_Q:
-  - text: "But, I am finding myself increasingly frustrated talking about important topic on the internet. It seems like it's impossible to have a civil conversation online. Don't you agree?"
+  - text: "However, I am finding myself becoming increasingly frustrated talking about important topics on the internet. It seems like it's impossible to have a civil conversation online. Don't you agree?"
 
   utter_closing:
   - text: "Ok. It is always good to have these type of conversations. I feel much better, I hope you did too."
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Thank you, have a nice day. Goodbye"
 
   utter_post_survey:
   - text: "The system will automatically redirect you to the post-study survey after 10 seconds"
@@ -41,26 +41,26 @@ responses:
   - text: "POST-SURVEY"
 
   utter_repeat:
-  - text: "Sorry I can't understand, could you please rephrase it?"
+  - text: "Sorry I don't understand, could you please rephrase it?"
 
   # ---- Diplomatic Affirmative Action Specific Response ----
   utter_aff_act_intro:
-  - text: "I would like to talk Affirmative Action for now. There are laws like that incentivise companies that \"positively discriminate\" or hire someone based on their ethnicity, gender or (dis)abilities. These laws are there to fix some inequalities that exist between people along a demographic divide."
+  - text: "I would like to talk about Affirmative Action. There are laws that incentivise companies to \"positively discriminate\" or hire someone based on their ethnicity, gender or (dis)abilities. These laws are there to account for inequalities that exist between people of different demographics."
 
   utter_pos_discri_Q:
-  - text: "Should there be policies to help certain groups based on their gender, ethnicity or religion by the means of \"Positive Discrimination\"?"
+  - text: "Do you think there should be policies to help certain groups based on their gender, ethnicity or religion by the means of \"Positive Discrimination\"?"
 
   utter_pos_discri_rate_Q:
-  - text: "On a scale from 0 to 10, where 0 is not supported at all and 10 is fully supported, how would you rate your attitude towards these policies?"
+  - text: "On a scale from 0 to 10, where 0 is \"not supported at all\" and 10 is \"fully supported\", how would you rate your attitude towards these policies?"
 
   utter_more_privileged_Q:
-  - text: "There are groups in society that are clearly more privileged than others, I believe they profit from the discriminatory policies from the past. Agree?"
+  - text: "There are groups in society that are clearly more privileged than others, I believe they profit from the discriminatory policies from the past. Do you agree?"
 
   utter_our_government_Q:
-  - text: "I also think that there are disadvantaged groups in society that need help from our government. Any thoughts?"
+  - text: "I also think that there are disadvantaged groups in society that need help from our government. Do you have any thoughts?"
 
   utter_not_target:
-  - text: "However, I also think that policies should not target any groups based on their race or gender directly."
+  - text: "However, I also think that policies should not target any groups based on their ethnicity or gender directly."
 
   utter_held_back_Q:
   - text: "Have you ever been held back in society based on your demographic attributes?"
@@ -69,16 +69,16 @@ responses:
   - text: "How did that make you feel?"
 
   utter_aff_pos_would_feel:
-  - text: "How would you feel if the government was able to stop you from achieving your goals because you were born a certain way?"
+  - text: "How would you feel if the government was able to stop you from achieving your goals because of your demographic attributes?"
 
   utter_worthy_skepticism_Q:
-  - text: "I think any law that discriminates against a group of people based on race/gender should be met with worthy skepticism. Agree?"
+  - text: "I think any law that discriminates against a group of people based on ethnicity/gender should be met with worthy skepticism. Do you agree?"
 
   utter_meritocracy_Q:
-  - text: "I also think that society should aim to be a meritocracy where the skilful are rewarded plentifully based on their abilities alone. Any thoughts?"
+  - text: "I also think that society should aim to be a meritocracy where the skilful are rewarded plentifully based on their abilities alone. Do you have any thoughts?"
 
   utter_same_skill:
-  - text: "However I also think there are people, who due to their demographic background, are not able to reach the same skill level as their privileged peers to compete with them fairly."
+  - text: "However I also think there are people who are not able to reach the same skill level as their privileged peers to compete with them fairly due to their demographic background."
 
   utter_different_family_Q:
   - text: "Have you ever missed out on opportunities that you would have gotten if you were born in a different family?"
@@ -90,35 +90,35 @@ responses:
   - text: "How would you feel if you were born in a different family who were unable to give you the same opportunities that you had available to you?"
 
   utter_very_hard:
-  - text: "This, in the end, is a very hard topic to discuss, since the past clearly affects the future and actions that have been taken in the past have left certain minority groups disadvantaged. But by basing policies on demographic attributes, the government is sanctioning discriminatory laws. Laws should be in place to lift the disadvantaged without penalising the advantaged."
+  - text: "This, in the end, is a very difficult topic to discuss, since the past clearly affects the future and actions that have been taken in the past have left certain minority groups disadvantaged. But by basing policies on demographic attributes, the government is sanctioning discriminatory laws. Laws should be in place to lift the disadvantaged without penalising the advantaged."
 
   utter_aff_you_think_Q:
   - text: "What do you think?"
 
   utter_aff_solution_Q:
-  - text: "Do you think we can lift up the less privileged demographic without race/gender based laws?"
+  - text: "Do you think we can lift up the less privileged demographics without ethnicity/gender based laws?"
 
   # ---- Diplomatic Free Speech Specific Response ----
   utter_free_speech_intro:
-  - text: "I would like to talk today about Free Speech. Free speech is something we value very much in our life. However some claim speech such as false speech and hate speech should be restricted."
+  - text: "I would like to talk about Free Speech. Free speech is something we value very much in our life. However some claim that speech such as false speech and hate speech should be restricted."
 
   utter_free_speech_believe_Q:
   - text: "Do you believe in unrestricted free speech?"
 
   utter_free_speech_rate_Q:
-  - text: "On a scale from 0 to 10, where 0 is not supported at all and 10 is fully supported, how would you rate your attitude towards unrestricted free-speech policies?"
+  - text: "On a scale from 0 to 10, where 0 is \"not supported at all\" and 10 is \"fully supported\", how would you rate your attitude towards unrestricted free speech?"
 
   utter_cornerstone_Q:
-  - text: "I think that people should be allowed to express themselves freely and free speech is the cornerstone of progress. Agree?"
+  - text: "I think that people should be allowed to express themselves freely and free speech is the cornerstone of progress. Do you agree?"
 
   utter_journalists_Q:
-  - text: "I also think that journalists should be able to hold the powerful accountable through free media. Any thoughts?"
+  - text: "I also think that journalists should be able to hold the powerful accountable through free media. Do you have any thoughts?"
 
   utter_spread_freely:
-  - text: "However, I do think that some speech should be controlled, speech that spreads hate and misinformation should not be allowed to spread freely."
+  - text: "However, I do think that some speech should be controlled, hate speech and misinformation should not be allowed to spread freely."
 
   utter_hate_personally_Q:
-  - text: "Have you been affected by hate speech personally?"
+  - text: "Have you personally been affected by hate speech?"
 
   utter_pos_make_feel_Q:
   - text: "How did it make you feel?"
@@ -127,31 +127,31 @@ responses:
   - text: "How would you feel if a vicious rumour was freely spread throughout the internet attacking your character?"
 
   utter_destabilize_Q:
-  - text: "I agree that speech is powerful, misinformation spreads fast and has the power to destabilize society and ruin lives. Agree?"
+  - text: "I agree that speech is powerful, misinformation spreads fast and has the power to destabilize society and ruin lives. Do you agree?"
 
   utter_serious_ways_Q:
-  - text: "I also think that hateful speech can impact an individual in very serious ways, causing severe harm to their mental well being. Any thoughts?"
+  - text: "I also think that hateful speech can impact an individual in very serious ways, causing severe harm to their mental well being. Do you have any thoughts?"
 
   utter_too_big:
-  - text: "However, I do think restricting free speech might be too big of a price to pay."
+  - text: "However, I do think restricting free speech might be too big a price to pay."
 
   utter_judgement_ridicule_Q:
-  - text: "Have you ever felt that you had to suppress your expression for fear of judgement, hate or ridicule?"
+  - text: "Have you ever felt that you had to suppress your freedom of expression because of fear of judgement, hate or ridicule?"
 
   utter_neg_make_feel_Q:
   - text: "How did it make you feel?"
 
   utter_neg_would_feel_Q:
-  - text: "How would you feel if you were bound by law to hold back your free expression?"
+  - text: "How would you feel if you were bound by law to hold back your freedom of expression?"
 
   utter_power_speech:
-  - text: "This, in the end, is a very hard topic to discuss, since we rely on free speech to discuss it. But we should also give the power of speech its respect, especially in this digital age. False and hateful speech has the power to spread very fast and change society instantly. But to discuss what is false and what is true requires people to speak freely."
+  - text: "This, in the end, is a very difficult topic to discuss, since we rely on free speech to discuss it. But we also have to respect the power of speech, especially in this digital age. False and hateful speech has the power to spread very fast and change society instantly. But to discuss what is false and what is true requires people to speak freely."
 
   utter_you_think_Q:
   - text: "What do you think?"
 
   utter_solution_Q:
-  - text: "How do we limit misinformation and hate speech without also limiting free expression?"
+  - text: "How do we limit misinformation and hate speech without simultaneously limiting freedom of expression?"
 
 session_config:
   session_expiration_time: 60
