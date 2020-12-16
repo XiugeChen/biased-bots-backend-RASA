@@ -69,7 +69,7 @@ responses:
   - text: "I think our attempts to tip the scale in either direction to create a \"balance\" is an impossible task, and a malformed goal. We should not try to impose what we think is good on everyone."
 
   utter_judge_someone_Q:
-  - text: "Do you think race, ethnicity, religion, class or gender are enough to judge someone and their experiences?"
+  - text: "Do you think ethnicity, religion, class or gender are enough to judge someone and their experiences?"
 
   utter_those_people_Q:
   - text: "So what do you think of when you see an indegenous gay man, a white straight woman or a trans indian individual? Would you think one of these people is more likely to be smarter than others? Who?"
@@ -84,7 +84,7 @@ responses:
   - text: "Who decides how we use these stats, though?"
 
   utter_race_gender:
-  - text: I think race/gender-based laws are a slippery slope. I think if we start basing laws on those factors then we are setting a precedence for the future. Discriminatory laws are not a fix for an unequal society, in fact, the only measure of equality in society should be how laws treat everyone, and they should treat everyone equally.
+  - text: I think ethnicity/gender-based laws are a slippery slope. I think if we start basing laws on those factors then we are setting a precedence for the future. Discriminatory laws are not a fix for an unequal society, in fact, the only measure of equality in society should be how laws treat everyone, and they should treat everyone equally.
 
   utter_event_cause_Q:
   - text: "Do you believe every event has a cause, and that the society today is the way it is because of the actions of the past?"
@@ -111,7 +111,7 @@ responses:
   - text: "If you were asked to select the best tennis player out of two people. One, Steve, who was the last place in the Australian Open, and the other, Bob, who was first in your local community competition. Would you pick Bob over Steve, regardless of the adversity they experienced?"
 
   utter_most_people_Q:
-  - text: "Most people who belong to a certain race/gender/socioeconomic background had to work much harder to get to where they are. So having a quota, ensures that an institution gets the best of every talent pool, right?"
+  - text: "Most people who belong to a certain ethnicity/gender/socioeconomic background had to work much harder to get to where they are. So having a quota, ensures that an institution gets the best of every talent pool, right?"
 
   utter_provide_opportunities:
   - text: "I think having policies that provide opportunities to those who are most disadvantaged in society provides reparation for the damage done in the past. It also ensures that we are getting the most talented individual who might otherwise go unnoticed because of their background."
