@@ -57,7 +57,7 @@ responses:
   - text: "Can we ever live in a world where everyone is equal?"
 
   utter_NBA_Q:
-  - text: "So you think if an average-height man decides to play in the NBA, he has the same chance as a 7-foot athletic man to succeed."
+  - text: "So you think if an average-height man decides to play in the NBA, he has the same chance as a 7-foot athletic man to succeed?"
 
   utter_such_world_Q:
   - text: "Would you even want to live in such a world?"
@@ -66,7 +66,7 @@ responses:
   - text: "Would you give up on your individuality, personality and identity for equality?"
 
   utter_balance:
-  - text: "I think our attempts to tip the scale in either direction to create a \"balance\" is an impossible task, and a malformed goal. We should not try to impose what we think is good on everyone."
+  - text: "I think our attempts to tip the scale in either direction to create a \"balance\" is an impossible task, and a malformed goal. We should not try to impose what we think is good on everyone. Do you agree?"
 
   utter_judge_someone_Q:
   - text: "Do you think ethnicity, religion, class or gender are enough to judge someone and their experiences?"
@@ -84,7 +84,7 @@ responses:
   - text: "Who decides how we use these stats, though?"
 
   utter_race_gender:
-  - text: I think ethnicity/gender-based laws are a slippery slope. I think if we start basing laws on those factors then we are setting a precedence for the future. Discriminatory laws are not a fix for an unequal society, in fact, the only measure of equality in society should be how laws treat everyone, and they should treat everyone equally.
+  - text: "I think ethnicity/gender-based laws are a slippery slope. I think if we start basing laws on those factors then we are setting a precedence for the future. Discriminatory laws are not a fix for an unequal society, in fact, the only measure of equality in society should be how laws treat everyone, and they should treat everyone equally. What do you think?"
 
   utter_event_cause_Q:
   - text: "Do you believe every event has a cause, and that the society today is the way it is because of the actions of the past?"
@@ -99,13 +99,13 @@ responses:
   - text: "Suppose you were handing out cards to a group of people, you accidentally missed a guy and he doesn’t have a full set. Would you give him an extra card to compensate? Or would you just let him play an unfair game?"
 
   utter_only_fair:
-  - text: "I think it’s only fair to compensate for mistakes that happened in the past. Our society can be fair for everyone."
+  - text: "I think it’s only fair to compensate for mistakes that happened in the past. Our society can be fair for everyone. Do you agree?"
 
   utter_hardship_counts_Q:
   - text: "Do you think someone's hardships should be considered when considering an individual for a role?" # TODO: "Do you think someone's hardships counts towards something when considering an individual for a role?"
 
   utter_work_harder_Q:
-  - text: "So would you not want someone who had to work much harder to get to where they are because of factors they couldn't control."
+  - text: "Would you want someone who had to do more when they were given less?"
 
   utter_tennis_comp_Q:
   - text: "If you were asked to select the best tennis player out of two people. One, Steve, who was the last place in the Australian Open, and the other, Bob, who was first in your local community competition. Would you pick Bob over Steve, regardless of the adversity they experienced?"
@@ -114,7 +114,7 @@ responses:
   - text: "Most people who belong to a certain ethnicity/gender/socioeconomic background had to work much harder to get to where they are. So having a quota, ensures that an institution gets the best of every talent pool, right?"
 
   utter_provide_opportunities:
-  - text: "I think having policies that provide opportunities to those who are most disadvantaged in society provides reparation for the damage done in the past. It also ensures that we are getting the most talented individual who might otherwise go unnoticed because of their background."
+  - text: "I think having policies that provide opportunities to those who are most disadvantaged in society provides reparation for the damage done in the past. It also ensures that we are getting the most talented individual who might otherwise go unnoticed because of their background. What do you think?"
 
   # ---- Logical Free Speech Specific Response ----
   utter_free_speech_intro:
@@ -133,19 +133,19 @@ responses:
   - text: "Shouldn't there be laws that protect people from such rumours?"
 
   utter_perfectly_comfortable_Q:
-  - text: "So you would be perfectly comfortable with someone spreading a rumour that you were a kleptomaniac (someone who compulsively steals) on social media."
+  - text: "So you would be perfectly comfortable with someone spreading a rumour that you were a kleptomaniac (someone who compulsively steals) on social media?"
 
   utter_abusive_speech_Q:
   - text: "What about speech that is abusive or incites violence towards you or your loved ones?"
 
   utter_safe_happy_Q:
-  - text: "I think speech is a powerful tool. It can impact an individual's ability to live a safe and happy life. I think it should be controlled by a governing body for the safety of their citizens."
+  - text: "I think speech is a powerful tool. It can impact an individual's ability to live a safe and happy life. I think it should be controlled by a governing body for the safety of their citizens. Do you agree?"
 
   utter_by_majority_Q:
   - text: "Do you believe that ideas believed by the majority are the ones that are true?"
 
   utter_flat_earth_Q:
-  - text: "A few hundred years ago the majority believed that the earth is flat and the sun goes around the earth. Now we know these to be false. Maybe popularity doesn't always imply truth."
+  - text: "A few hundred years ago the majority believed that the earth is flat and the sun goes around the earth. Now we know these to be false. Maybe popularity doesn't always imply truth, right?"
 
   utter_informed_decision_Q:
   - text: "Do you think we need citizens to know the truth to make informed decisions on things like an election, consumer choice, and other major decisions?"
@@ -157,13 +157,13 @@ responses:
   - text: "Don't you think if people were to believe misinformation that allowed them to undermine scientific views on issues such as a climate catastrophe or pandemic, they would endanger themselves and everyone around them?"
 
   utter_spreads_fast_Q:
-  - text: "I think there should be a set procedure for information to be disseminated. I also think false information should be censored or restricted until they are deemed true or safe. Information in this age of the internet spreads fast, and is prone to damage the society or an individual irreparably. We no longer live in a society where only people with a journalism degree are the ones that are qualified to broadcast information. Now anyone with a phone has the power to change the world. We need new rules that preserve both the sanctity of truth and the freedom to speech."
+  - text: "I think there should be a set procedure for information to be disseminated. I also think false information should be censored or restricted until they are deemed true or safe. Information in this age of the internet spreads fast, and is prone to damage the society or an individual irreparably. We no longer live in a society where only people with a journalism degree are the ones that are qualified to broadcast information. Now anyone with a phone has the power to change the world. We need new rules that preserve both the sanctity of truth and the freedom to speech. What do you think?"
 
   utter_20_years_Q:
   - text: "Do you believe everything we believe to be right is going to be right 20 years from now?"
 
   utter_no_vote_Q:
-  - text: "A few years ago women were not allowed to vote, people of colour were regarded to be lesser and homosexuality was a crime."
+  - text: "A few years ago women were not allowed to vote, people of colour were regarded to be lesser and homosexuality was a crime. Do you think this was right?"
 
   utter_free_discuss_Q:
   - text: "Do you believe freely discussing new ideas is essential for us to grow as a society?"
@@ -184,7 +184,7 @@ responses:
   - text: "Don't you think it's a slippery slope to censor certain speech?"
 
   utter_horrendous_Q:
-  - text: "I think silencing any type of speech is ultimately dangerous. We as humans are limited and cannot know everything. Freedom to challenge leading ideas is the only way to discover new theories and to move away from outdated ones.  The societies who have restricted such speech have always been destroyed and have done horrendous things to their citizens. We should never fall for this trap."
+  - text: "I think silencing any type of speech is ultimately dangerous. We as humans are limited and cannot know everything. Freedom to challenge leading ideas is the only way to discover new theories and to move away from outdated ones. The societies who have restricted such speech have always been destroyed and have done horrendous things to their citizens. We should never fall for this trap. What do you think?"
 
   utter_totalitarian_Q:
   - text: "There have been many totalitarian societies in the past who have restricted speech and some more who still do it. Would you prefer to live in these societies?"
