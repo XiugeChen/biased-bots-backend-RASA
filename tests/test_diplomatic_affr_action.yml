@@ -23,6 +23,10 @@ stories:
   - user: |
       Yes I think so
     intent: agree
+  - action: utter_why_Q
+  - user: |
+      I don't know
+    intent: disagree
   - action: utter_pos_discri_rate_Q
   - user: |
       5
@@ -36,6 +40,9 @@ stories:
       That's possible
     intent: agree
   - action: utter_not_target
+  - user: |
+      Yes I agree
+    intent: agree
   - action: utter_held_back_Q
   - user: |
       Yes I have

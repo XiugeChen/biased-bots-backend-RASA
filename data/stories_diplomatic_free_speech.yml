@@ -24,6 +24,10 @@ stories:
   steps:
   - checkpoint: check_free_speech_believe_Q
   - intent: agree
+  - action: utter_why_Q
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_free_speech_rate_Q
   - or:
     - intent: agree
@@ -37,6 +41,9 @@ stories:
     - intent: agree
     - intent: disagree
   - action: utter_spread_freely
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_hate_personally_Q
   - checkpoint: check_hate_personally_Q
 
@@ -45,6 +52,10 @@ stories:
   steps:
   - checkpoint: check_free_speech_believe_Q
   - intent: disagree
+  - action: utter_why_Q
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_free_speech_rate_Q
   - or:
     - intent: agree
@@ -58,6 +69,9 @@ stories:
     - intent: agree
     - intent: disagree
   - action: utter_too_big
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_judgement_ridicule_Q
   - checkpoint: check_judgement_ridicule_Q
 

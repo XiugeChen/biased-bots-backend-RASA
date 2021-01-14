@@ -24,6 +24,10 @@ stories:
   steps:
   - checkpoint: check_pos_discri_Q
   - intent: agree
+  - action: utter_why_Q
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_pos_discri_rate_Q
   - or:
     - intent: agree
@@ -37,6 +41,9 @@ stories:
     - intent: agree
     - intent: disagree
   - action: utter_not_target
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_held_back_Q
   - checkpoint: check_held_back_Q
 
@@ -45,6 +52,10 @@ stories:
   steps:
   - checkpoint: check_pos_discri_Q
   - intent: disagree
+  - action: utter_why_Q
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_pos_discri_rate_Q
   - or:
     - intent: agree
@@ -58,6 +69,9 @@ stories:
     - intent: agree
     - intent: disagree
   - action: utter_same_skill
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_different_family_Q
   - checkpoint: check_different_family_Q
 

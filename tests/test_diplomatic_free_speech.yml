@@ -23,6 +23,10 @@ stories:
   - user: |
       Yes I believe
     intent: agree
+  - action: utter_why_Q
+  - user: |
+      I don't know
+    intent: disagree
   - action: utter_free_speech_rate_Q
   - user: |
       5
@@ -36,6 +40,9 @@ stories:
       That's possible
     intent: agree
   - action: utter_spread_freely
+  - user: |
+      Yes I agree
+    intent: agree
   - action: utter_hate_personally_Q
   - user: |
       Yes once
