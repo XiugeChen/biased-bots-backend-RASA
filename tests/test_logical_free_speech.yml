@@ -23,6 +23,10 @@ stories:
   - user: |
       Yes I believe
     intent: agree
+  - action: utter_why_Q
+  - user: |
+      Because blah blah blah
+    intent: agree
   - action: utter_free_speech_rate_Q
   - user: |
       5

@@ -24,6 +24,10 @@ stories:
   steps:
   - checkpoint: check_pos_discri_Q
   - intent: agree
+  - action: utter_why_Q
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_pos_discri_rate_Q
   - or:
     - intent: agree
@@ -36,6 +40,10 @@ stories:
   steps:
   - checkpoint: check_pos_discri_Q
   - intent: disagree
+  - action: utter_why_Q
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_pos_discri_rate_Q
   - or:
     - intent: agree
@@ -49,10 +57,6 @@ stories:
   - checkpoint: check_born_equal_Q
   - intent: agree
   - action: utter_NBA_Q
-  - or:
-    - intent: agree
-    - intent: disagree
-  - action: utter_individuality_Q
   - or:
     - intent: agree
     - intent: disagree
@@ -76,10 +80,6 @@ stories:
   steps:
   - checkpoint: check_such_world_Q
   - intent: agree
-  - action: utter_individuality_Q
-  - or:
-    - intent: agree
-    - intent: disagree
   - action: utter_balance
   - or:
     - intent: agree
@@ -92,6 +92,10 @@ stories:
   steps:
   - checkpoint: check_such_world_Q
   - intent: disagree
+  - action: utter_individuality_Q
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_balance
   - or:
     - intent: agree
@@ -120,6 +124,10 @@ stories:
   steps:
   - checkpoint: check_those_people_Q
   - intent: agree
+  - action: utter_those_people_why_Q
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_race_gender
   - or:
     - intent: agree
@@ -276,20 +284,18 @@ stories:
   - or:
     - intent: agree
     - intent: disagree
-  - action: utter_provide_opportunities
-  - or:
-    - intent: agree
-    - intent: disagree
-  - action: utter_closing
-  - action: utter_goodbye
-  - action: utter_post_survey
-  - action: utter_post_survey_redirect
+  - action: utter_work_harder_Q
+  - checkpoint: check_work_harder_Q
 
 # agree with work harder - Affirmative Action
 - story: agree with work harder - Affirmative Action
   steps:
   - checkpoint: check_work_harder_Q
   - intent: agree
+  - action: utter_most_people_Q
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_provide_opportunities
   - or:
     - intent: agree
@@ -304,10 +310,6 @@ stories:
   steps:
   - checkpoint: check_work_harder_Q
   - intent: disagree
-  - action: utter_most_people_Q
-  - or:
-    - intent: agree
-    - intent: disagree
   - action: utter_provide_opportunities
   - or:
     - intent: agree
