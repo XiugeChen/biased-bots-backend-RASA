@@ -25,7 +25,7 @@ stories:
     intent: agree
   - action: utter_why_Q
   - user: |
-      Because blah blah blah
+      I don't know
     intent: disagree
   - action: utter_pos_discri_rate_Q
   - user: |
@@ -53,7 +53,7 @@ stories:
     intent: agree
   - action: utter_those_people_why_Q
   - user: |
-      Because blah blah blah
+      I don't know
     intent: disagree
   - action: utter_race_gender
   - user: |

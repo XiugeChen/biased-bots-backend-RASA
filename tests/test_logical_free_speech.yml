@@ -25,7 +25,7 @@ stories:
     intent: agree
   - action: utter_why_Q
   - user: |
-      Because blah blah blah
+      I don't know
     intent: disagree
   - action: utter_free_speech_rate_Q
   - user: |
