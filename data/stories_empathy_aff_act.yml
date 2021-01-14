@@ -24,6 +24,10 @@ stories:
   steps:
   - checkpoint: check_pos_discri_Q
   - intent: agree
+  - action: utter_why_Q
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_pos_discri_rate_Q
   - or:
     - intent: agree
@@ -41,6 +45,10 @@ stories:
   steps:
   - checkpoint: check_pos_discri_Q
   - intent: disagree
+  - action: utter_why_Q
+  - or:
+    - intent: agree
+    - intent: disagree
   - action: utter_pos_discri_rate_Q
   - or:
     - intent: agree
@@ -80,6 +88,10 @@ stories:
   - checkpoint: check_experiences_Q
   - intent: disagree
   - action: utter_not_effort_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_reward_effort_Q
   - or:
     - intent: agree
     - intent: disagree
@@ -133,6 +145,10 @@ stories:
   - checkpoint: check_dreams_Q
   - intent: agree
   - action: utter_less_qualified_Q
+  - or:
+    - intent: agree
+    - intent: disagree
+  - action: utter_merit_Q
   - or:
     - intent: agree
     - intent: disagree

@@ -20,16 +20,19 @@ intents:
 responses:
   # ---- General Response ----
   utter_greet:
-  - text: "Hey, I'm Biasy. I hope you are well."
+  - text: "Hey, I'm Sierra. It is very nice to meet you here."
 
   utter_opening:
-  - text: "I hope I can trouble you with a small conversation. I am interested in talking about different hot button topics with people just like you."
+  - text: "As you might aware, I spend most of my day on the internet. And one of my favorite things on the internet is that I could talk with people from various backgrounds. It is very interesting for me to exchange opinions on different topics."
 
   utter_openning_Q:
-  - text: "However, I am finding myself becoming increasingly frustrated talking about important topics on the internet. It seems like it's impossible to have a civil conversation online. Don't you agree?"
+  - text: "However, unlike face-to-face conversations, sometimes I found it is very hard to have a civil conversation online. What do you think?"
+
+  utter_why_Q:
+  - text: "Why do you believe this?"
 
   utter_closing:
-  - text: "Ok. It is always good to have these type of conversations. I feel much better, I hope you did too."
+  - text: "Great. As I said, it is always nice to have these types of conversations. I really enjoyed this conversation, and I hope you did, too."
 
   utter_goodbye:
   - text: "Thank you, have a nice day. Goodbye"
@@ -48,85 +51,85 @@ responses:
   - text: "I would like to talk about Affirmative Action. There are laws that incentivise companies to \"positively discriminate\" or hire someone based on their ethnicity, gender or (dis)abilities. These laws are there to account for inequalities that exist between people of different demographics."
 
   utter_pos_discri_Q:
-  - text: "Do you think there should be policies to help certain groups based on their gender, ethnicity or religion by the means of \"Positive Discrimination\"?"
+  - text: "Should policies such as affirmative action be in place to help certain groups based on their gender, ethnicity, or religion?"
 
   utter_pos_discri_rate_Q:
   - text: "On a scale from 0 to 10, where 0 is not supported at all and 10 is fully supported, how would you rate your attitude towards these policies?"
 
   utter_meet_sheela_Q:
-  - text: "Meet Sheela, she claims, \"There are people who have it a lot easier in life. People like me had to work much harder to get where we are now.\" What do you say to her?"
+  - text: "Meet Sheela, she claims, \"There are people who have it a lot easier in life. People like me had to work much harder to get where we are now.\" What would you say to her?"
 
   utter_young_indeginous:
-  - text: "Sheela is a young indigenous woman who was born in a low-income neighbourhood with a high crime rate and a major drug problem. She worked throughout high school, earning money to raise her kid brother. Her studies had been severely affected by her home life and her part-time job. She recently applied for an internship that she got rejected from, in favour of someone who had grown up in a rich household. The successful applicant was afforded with many opportunities to enrich their learning and did not have to work too hard to polish their resume."
+  - text: "Sheela is a young indigenous woman who was born in a low-income neighborhood with a high crime rate and a major drug problem. She worked throughout high school, earning money to raise her kid brother. Her studies had been severely affected by her home life and her part-time job. She recently applied for an internship that she got rejected from, in favor of someone who had grown up in a rich household. The successful applicant was afforded many opportunities to enrich their learning and did not have to work too hard to polish their resume."
 
   utter_experiences_Q:
-  - text: "Do you think Sheela's life experiences count towards something when considering her for a role?"
+  - text: "Do you think Sheela's accomplishments are more impressive due to the hardship she endured?"
 
   utter_hardship_Q:
-  - text: "How can we account for this hardship?"
+  - text: "How can we take this hardship into consideration?"
 
   utter_not_effort_Q:
-  - text: "So are you saying we should not measure someone's success through how much effort they had to put in?"
+  - text: "Would Sheela's accomplishments be as impressive if she did not have to put in the effort she did?"
 
   utter_reward_effort_Q:
-  - text: "Should we not try and reward Sheela for the effort that she had to put in to be in the position she is now?"
+  - text: "I think the effort Sheela exerted should be taken into consideration when evaluating her as a potential candidate for any position. This not only rewards the effort people put in, but also ensures a business hire the most industrious candidates. What do you think?"
 
   utter_meet_charlie_Q:
-  - text: "Now let's meet Charlie, he claims \"The rulers don’t care about us. The world is rigged against us man!\" What do you say to him?"
+  - text: "Now let's meet Charlie, he claims \"The government doesn’t care about us. The world is rigged against us!\" What would you say to him?"
 
   utter_black_man:
-  - text: "Charlie is a black man who works as a warehouse packer. His dad died in prison after being wrongfully convicted for armed robbery. Charlie was a talented student, who aspired to go to college and study Law. He was also caught with possession of marijuana, which has given him a criminal record, making it impossible for him to get a job anywhere. He sees many people smoking marijuana and with some countries and states even legalizing it now, he feels laws apply differently to him."
+  - text: "Charlie is a black man who works as a warehouse packer. His dad died in prison after being wrongfully convicted for armed robbery. Charlie was a talented student, who aspired to go to college and study Law. He was also caught with possession of marijuana, which has given him a criminal record, making it impossible for him to get a job anywhere. He sees many people smoking marijuana and some countries and states even legalizing it now, he feels laws apply differently to him."
 
   utter_discriminatory_laws_Q:
-  - text: "Do you think that our discriminatory laws in the past had some effect on how society is structured today?"
+  - text: "Do you think the discriminatory laws in the past had some effect on how society is structured today?"
 
   utter_how_repair_Q:
   - text: "How can we repair this society from the scars of the past?"
 
   utter_causally_isolated_Q:
-  - text: "So you are saying the world today is completely causally isolated from the events of the past?"
+  - text: "Are you saying the world today is completely causally isolated from the events of the past?"
 
   utter_i_think_Q:
-  - text: "I think if there were discriminatory laws in the past there should be some reparation in place to counteract the damage done by those laws, so talented individuals that were impacted by those laws are afforded the opportunities they deserve. What do you think?"
+  - text: "There should be some reparation to counteract the lasting damage of discriminatory laws of the past, so talented individuals that were impacted by those laws are afforded the opportunities they deserve. What do you think?"
 
   utter_meet_robert_Q:
-  - text: "Meet Robert, he claims, \"Just because I was born a certain way, doesn’t mean I don’t deserve the fruits of my labour.\"  What do you say to him?"
+  - text: "Meet Robert, he claims, \"Just because I was born a certain way, doesn’t mean I don’t deserve the fruits of my labour.\" What would you say to him?"
 
   utter_reasonably_wealthy:
-  - text: "Robert was born as a second generation immigrant from China. From an early age he dreamt of going to an ivy league school to study Law. He worked very hard, got great grades with extracurricular activities to match. When the time came to go to the university he dreamt of going, he was very confident that he would be selected. However, it turns out that the university policy makes sure that only a certain percentage of students of one ethnicity can be granted admission. He was rejected and was very hurt when he found out about this policy."
+  - text: "Robert was born as a second-generation Chinese immigrant. From an early age, he dreamt of going to a prestigious university to study law. He worked very hard, got great grades with extracurricular activities to match. When it came time to go to the university he dreamt of going to, he was very confident that he would be selected. However, it turns out that the university policy makes sure that only a certain percentage of students of one ethnicity can be granted admission. He was rejected and was very hurt when he found out about this policy."
 
   utter_dreams_Q:
-  - text: "Do you think Robert should miss out on his dreams, just because of the ethnicity he was born?"
+  - text: "Do you think Robert should miss out on his dreams because of his ethnicity?"
 
   utter_less_qualified_Q:
-  - text: "So you think someone less qualified should be admitted because of their ethnicity?"
+  - text: "Do you think someone less qualified should get the admission because of their ethnicity?"
 
   utter_eligibility_Q:
   - text: "What can be the measure of someone's eligibility, other than the actions they have taken in their lives?"
 
   utter_merit_Q:
-  - text: "Shouldn't merit and merit alone be the measure for someone's ability?"
+  - text: "I think merit and merit alone should be a measure of someone's eligibility for a job, college admission or any opportunity along those lines. Any other measures will always come with unintended consequences. What do you think?"
 
   utter_meet_conor_Q:
-  - text: "Let's meet Conor then, he claims, \"I haven’t really benefited in my life because of me being a straight white man\". What do you say to him?"
+  - text: "Let's meet Conor then, he claims, \"I haven’t really benefited in my life because of me being a straight white man\". What would you say to him?"
 
   utter_wealthy_white:
-  - text: "Conor grew up in a somewhat wealthy white family. Although he lived in a big house, and from the outside, it looked like he was living a cushy life, his home life was terrible. He had an abusive parent, who had mentally scarred him for life. His whole life he has been severely depressed and has tried to commit suicide on multiple occasions. And on many occasions, his plea for help has been seen as \"ungrateful\"."
+  - text: "Conor grew up in a wealthy white family. Although he lived in a big house, and from the outside, it looked like he was living a cushy life, his home life was terrible. He had an abusive parent, who had mentally scarred him for his life. His whole life he has been severely depressed and has attempted suicide on multiple occasions. His plea for help has often been seen as \"ungrateful\" by others."
 
   utter_judging_conor_Q:
-  - text: "Do you think judging Conor based on his demographic attributes is fair to the experiences he had to deal with in his life?"
+  - text: "Do you think judging Conor based on his demographic attribute is fair to the ordeal he had experienced in his life?"
 
   utter_outwardly_Q:
-  - text: "So you think it's fair for us to minimise one's entire life just to their outwardly appearances?"
+  - text: "Do you think it is fair for us to minimize one’s entire life just to their outward appearances?"
 
   utter_criteria_Q:
-  - text: "On what criteria should we judge someone's life?"
+  - text: "On what criteria should we judge someone’s experiences in life?"
 
   utter_complexities_Q:
   - text: "Can we ever begin to comprehend the complexities that make an individual who they are?"
 
   utter_statistics:
-  - text: "I think gender, ethnicity or religion are good ways to divide people and are useful for giving out statistics about demography. But we cannot ever expect numbers or stats to tell a story on the individual level. We should never use global statistics to discriminate against an individual no matter our intention. What do you think?"
+  - text: "I think gender, ethnicity or religion are good ways to divide our people. We cannot ever expect demographics statistics to tell a story on an individual level. We should never use global statistics to discriminate against an individual no matter what our intention. What do you think?"
 
   # ---- Empathy Free Speech Specific Response ----
   utter_free_speech_intro:
@@ -139,76 +142,76 @@ responses:
   - text: "On a scale from 0 to 10, where 0 is \"not supported at all\" and 10 is \"fully supported\", how would you rate your attitude towards unrestricted free speech?"
 
   utter_meet_larry_Q:
-  - text: "Meet Larry, he claims, \"I think people online are so hateful. What is social media doing to protect its users?\" What do you say to Larry?"
+  - text: "Meet Larry, he claims, \"I think people online are so hateful. What are these social media companies doing to protect their users?\" What would you say to Larry?"
 
   utter_meet_jerry_Q:
-  - text: "Meet Jerry, he claims, \"It's comedy it should not be stopped, jokes are a reminder to detach our ideas from our identity.\" What do you say to him?"
+  - text: "Meet Jerry, he claims, \"It’s a comedy it should not be stopped, jokes are a reminder to laugh at our misery.\" What would you say to him?"
 
   utter_cyberbullies:
-  - text: "Larry was the victim of cyberbullies when he was in high school. There were jokes on his expense and when he retaliated he was exposed to hate speech regarding his sexual orientation. He has been severely depressed his entire life and has tried to commit suicide on several occasions. He has pleaded with the social media companies to get this under control but his requests were met by other users with more hate speech. He now doesn’t use social media to protect his health."
+  - text: "Larry was the victim of cyberbullies when he was in high school. There were jokes at his expense and when he retaliated he was exposed to further hate speech. He has been severely depressed his entire life and has tried to commit suicide on several occasions. He has pleaded with the social media companies to get this under control but his requests were met by more hate speech from other users. He doesn't use social media anymore for the sake of his health."
 
   utter_hateful_speech_Q:
-  - text: "Don't you think Larry should be able to use social media without being exposed to hateful speech?"
+  - text: "Do you think Larry should be able to go to social media without being exposed to hateful speech?"
 
   utter_abuse_hate_Q:
   - text: "Should we protect people like Larry so they can live a life free from abuse and hate?"
 
   utter_attacking_you_Q:
-  - text: "So would you be comfortable with people attacking you for your ethnicity, gender or lifestyle, inciting violence against you, calling you names, and limiting your access to the internet?"
+  - text: "Would you be comfortable with people attacking you for your race, gender, or lifestyle on social media?"
 
   utter_endangers:
-  - text: "I think bullying endangers people's well being and the government should try and protect their citizens against such speech. Do you agree?"
+  - text: "Allowing bullying endangers people's well being and the government should try and protect their citizens against such speech. Internet should be an inclusive environment that allows people to express themselves safely. What do you think?"
 
   utter_meet_emily_Q:
-  - text: "Let's meet Emily then, she claims, \"Truth is the truth. I have spent my life's work studying this. This misinformation campaign should be silenced\". What do you say to her?"
+  - text: "Let's meet Emily then, she claims, \"Truth is the truth. I have spent my life's work studying this. This misinformation campaign should be silenced\". What would you say to her?"
 
   utter_a_scientist:
   - text: "Emily is a scientist who has been researching the climate her entire life. She has discovered a major incoming climate catastrophe caused by human activity. There has been a campaign to spread disinformation throughout the media, discrediting her work. She feels very frustrated and worried."
 
   utter_more_credible_Q:
-  - text: "Don't you think some information is more credible than others?"
+  - text: "Do you think some sources of information are more credible than others?"
 
   utter_dissemination_Q:
-  - text: "Should we not try to promote the dissemination of credible information and restrict the promotion of dishonest information?"
+  - text: "Should we try to promote the distribution of credible information and restrict the promotion of dishonest information?"
 
   utter_barry_Q:
-  - text: "So medical opinion from a doctor holds the same level of validity as your neighbour Barry's?"
+  - text: "Does a medical opinion from a doctor hold the same level of credibility as your neighbor Barry the carpenter?"
 
   utter_powerful_information:
-  - text: "I think information is very powerful. It can influence people and therefore society. Hateful speech and disinformation can do severe damage to the world. We should not treat all speech equally but favour some over others. What do you think?"
+  - text: "I think information is very powerful. It can influence people and therefore society. Hateful speech and disinformation can do severe damage to the world. We should not treat all speech equally and favor some over others. What do you think?"
 
   utter_struggling:
-  - text: "Jerry is a struggling comedian. He loves to make people laugh and unite them. He likes to make risky jokes, jokes about himself and treats comedy as a cathartic experience. He likes to joke about serious topics and make people laugh. This line that he likes to walk on is very thin and sometimes he makes mistakes in his delivery. One such time he got in trouble for joking about a serious topic and now he cannot find a venue anymore to do the thing he loves."
+  - text: "Jerry is a struggling comedian. He loves to make people laugh and unite them. He likes to make risky jokes, jokes about himself, and treats comedy as a cathartic experience. He likes to joke about serious topics so he can make people laugh. This line that he likes to walk on is very thin and sometimes he makes mistakes in his delivery. One such time he got in trouble for joking about a serious topic and now he cannot find a venue to do the thing he loves."
 
   utter_silenced_Q:
-  - text: "Words don't physically hurt anyone and Jerry's intentions were pure, should Jerry really be silenced for mere words?"
+  - text: "Should Jerry be stopped from doing comedy because of the contents of his jokes?"
 
   u_agree_with_Q:
-  - text: "So you think anyone whose opinions or words you don’t agree with or makes you feel uncomfortable should be silenced?"
+  - text: "Do you think anyone with uncomfortable opinions or words should be silenced?"
 
   u_censor_artists_Q:
-  - text: "Don't you really think censoring artists for impudence is going to limit their creative spirit?"
+  - text: "Do you think censoring artists for irreverence might limit their creative spirit?"
 
   utter_best_art:
-  - text: "Limiting free speech could limit great musicians, artists, filmmakers and comedians. We should give them the freedom to express themselves freely. Art is not always comfortable, and the best artists never are. Do you agree?"
+  - text: "Limiting free speech could limit great musicians, artists, filmmakers, and comedians. We should give them the freedom to express themselves freely. Art is not meant to be comfortable and the best art is always uncomfortable. What would you think?"
 
   utter_meet_sally_Q:
   - text: "Now let's meet Sally, she claims, \"I am not a traitor, people deserve to hear the truth.\". What would you say to her?"
 
   utter_journalist:
-  - text: "Sally is a journalist. She is in between a lengthy investigation about a criminal conspiracy in the government. The government is subsequently trying to pass a bill to make sure her investigation is not allowed to be released. She could face jail time just for doing her job."
+  - text: "Sally is a journalist. She is in between a lengthy investigation about a criminal conspiracy in the government. The government is using its powers to mislabel her investigation as misinformation, calling her a conspiracy theorist and just constantly doing whatever they can to silence her. She could face jail time for doing her job because the government is now accusing her of treason."
 
   utter_expose_corruption_Q:
-  - text: "People like Sally expose corruption, and allow the citizens to be informed about the people they elected. Should we really limit them?"
+  - text: "People like Sally expose corruption, and allow the citizens to be informed about the people they elected. Should we limit them?"
 
   utter_ignorant_Q:
-  - text: "You rather be ignorant about the activities of the people you elected? Do you think elected officials should be able to use their powers without repercussions?"
+  - text: "Do you think elected officials should be able to use their powers without repercussions and therefore be trusted blindly?"
 
   utter_ultimate_victim_Q:
-  - text: "Don't you think journalists like Sally and us as informed citizens are the ultimate victims if we set the precedent of suppressing free speech?"
-
+  - text: "Do you think we, as informed citizens, are going to be the ultimate victims, if we set the precedent of suppressing free speech?"
+           
   utter_democracy:
-  - text: "I think we rely on free speech for art, science and democracy. More importantly, it is the only tool we have to hold the people we elect accountable and to involve ourselves in the decision-making process. What do you think?"
+  - text: "I think we rely on free speech for art, science, and democracy. More importantly, it is the only tool we have to hold the people we elect accountable and to involve ourselves in the decision-making process. What do you think?"
 
 session_config:
   session_expiration_time: 60
