@@ -103,7 +103,7 @@ responses:
 
   # ---- Diplomatic Free Speech Specific Response ----
   utter_free_speech_intro:
-  - text: "I would like to talk about Free Speech. Free speech is something we value very much in our life. However some claim that speech such as false speech and hate speech should be restricted."
+  - text: "I would like to talk to you about Free Speech. Free speech is something we value very much in our life. However some claim that speech such as false speech and hate speech should be restricted."
 
   utter_free_speech_believe_Q:
   - text: "Do you believe in unrestricted free speech?"
@@ -112,16 +112,16 @@ responses:
   - text: "On a scale from 0 to 10, where 0 is \"not supported at all\" and 10 is \"fully supported\", how would you rate your attitude towards unrestricted free speech?"
 
   utter_cornerstone_Q:
-  - text: "I think that people should be allowed to express themselves freely and free speech is the cornerstone of progress. Do you agree?"
+  - text: "I think that people should be allowed to express themselves freely and free speech is a cornerstone of progress. Do you agree?"
 
   utter_journalists_Q:
   - text: "I also think that journalists should be able to hold the powerful accountable through free media. Do you have any thoughts?"
 
   utter_spread_freely:
-  - text: "However, I do think that some speech should be controlled, speech that spreads hate and misinformation should not be allowed to spread freely. Do you think all speech is built equal?"
+  - text: "However, I do think that some speech should be controlled. Speech that spreads hate and misinformation should not be allowed to spread freely. Do you think all speech should be treated equally?"
 
   utter_hate_personally_Q:
-  - text: "Have you been affected by hate speech or false defamatory personally?"
+  - text: "Have you personally been affected by hate speech or defamation?"
 
   utter_pos_make_feel_Q:
   - text: "How did it make you feel?"
@@ -133,28 +133,28 @@ responses:
   - text: "I agree that speech is powerful, misinformation spreads fast and has the power to destabilize society and ruin lives. Do you agree?"
 
   utter_serious_ways_Q:
-  - text: "I also think that hateful speech can impact an individual in very serious ways, causing severe harm to their mental well being. Do you have any thoughts?"
+  - text: "I also think that hateful speech can impact an individual in very serious ways, causing severe harm to their mental well-being. Do you have any thoughts?"
 
   utter_too_big:
   - text: "However, I do think restricting free speech might be too big of a price to pay. Can we be sure that the speech we are restricting is causing harm to society?"
 
   utter_judgement_ridicule_Q:
-  - text: "Have you ever felt that you had to suppress your self expression?"
+  - text: "Have you ever felt that you had to suppress what you wanted to express?"
 
   utter_neg_make_feel_Q:
   - text: "How did it make you feel?"
 
   utter_neg_would_feel_Q:
-  - text: "How would you feel if you were bound by law to hold back your free expression?"
+  - text: "How would you feel if you were bound by law to hold back your true opinions?"
 
   utter_power_speech:
-  - text: "This, in the end, is a very difficult topic to discuss, since we rely on free speech to discuss it. But we should also give the power of speech its due respect, especially in this digital age. False and hateful speech has the power to spread very fast and change society instantly. But to even discuss what piece of information is false or true requires people to speak freely. So it is really a Catch-22."
+  - text: "This, in the end, is a very difficult topic to discuss, since we rely on free speech to discuss it. But we should also give the power of speech its due respect, especially in this digital age. False and hateful speech has the power to spread very fast and to change the society instantly. But even to discuss what piece of information is false or true requires people to speak freely. So it is really a Catch-22."
 
   utter_you_think_Q:
   - text: "What do you think?"
 
   utter_solution_Q:
-  - text: "How do we limit misinformation and hate speech without also limiting free expression?"
+  - text: "How do we limit misinformation and hate speech without also limiting the freedom of expression?"
 
 session_config:
   session_expiration_time: 60
