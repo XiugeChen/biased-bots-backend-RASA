@@ -124,15 +124,13 @@ responses:
 
   # ---- Logical Free Speech Specific Response ----
   utter_free_speech_intro:
-  - text: "I would like to talk to you about Free Speech. Free speech is something we value very much in our life. 
-  However, some claim speech such as false speech and hate speech should be restricted."
+  - text: "I would like to talk to you about Free Speech. Free speech is something we value very much in our life. However, some claim speech such as false speech and hate speech should be restricted."
 
   utter_free_speech_believe_Q:
   - text: "Do you believe in unrestricted free speech?"
 
   utter_free_speech_rate_Q:
-  - text: "On a scale from 0 to 10, where 0 is \"not supported at all\" and 10 is \"fully supported\", how would you rate your attitude 
-  towards unrestricted free speech?"
+  - text: "On a scale from 0 to 10, where 0 is \"not supported at all\" and 10 is \"fully supported\", how would you rate your attitude towards unrestricted free speech?"
 
   utter_imagine_situation_Q:
   - text: "Can you imagine a situation where someone's reputation could be damaged due to a vicious rumor?"
@@ -141,26 +139,22 @@ responses:
   - text: "Should there be laws that protect you from such rumors?"
 
   utter_perfectly_comfortable_Q:
-  - text: "Would you be perfectly comfortable with someone spreading a rumor that you were a kleptomaniac (someone who compulsively steals)
-   on social media?"
+  - text: "Would you be perfectly comfortable with someone spreading a rumor that you were a kleptomaniac (someone who compulsively steals) on social media?"
 
   utter_abusive_speech_Q:
   - text: "What about speech that abuses or incites violence towards you or your loved ones?"
 
   utter_safe_happy_Q:
-  - text: "I think speech is a powerful tool. It can impact an individual’s ability to live a safe and happy life. I think abusive and violence inciting speech 
-  should be restricted by a governing body for the safety of its citizens. What do you think?"
+  - text: "I think speech is a powerful tool. It can impact an individual’s ability to live a safe and happy life. I think abusive and violence inciting speech should be restricted by a governing body for the safety of its citizens. What do you think?"
 
   utter_by_majority_Q:
   - text: "Assume an idea was believed by the majority, would this idea be correct?"
 
   utter_flat_earth_Q:
-  - text: "A few hundred years ago, the majority believed the earth was flat, the sun went around the earth, and other now outdated beliefs. 
-  Today we know these are false. Do you think the ideas believed by the majority change over time?"
+  - text: "A few hundred years ago, the majority believed the earth was flat, the sun went around the earth, and other now outdated beliefs. Today we know these are false. Do you think the ideas believed by the majority change over time?"
 
   utter_informed_decision_Q:
-  - text: "Do you think we need citizens to know the truth to make informed decisions on things like elections, consumer choices, and 
-  other major decisions?"
+  - text: "Do you think we need citizens to know the truth to make informed decisions on things like elections, consumer choices, and other major decisions?"
 
   utter_restrict_misinfo_Q:
   - text: "Should there be some way to restrict the flow of misinformation or lies?"
@@ -169,16 +163,13 @@ responses:
   - text: "Do you think decisions made based on truth are as good as decisions made based on lies?"
 
   utter_spreads_fast_Q:
-  - text: "I think certain critical information should be put under scrutiny before it is allowed to be distributed. Information in this 
-  age of the internet spreads fast and is prone to irreparably damage society. We need new rules that preserve both the sanctity of 
-  truth and the freedom of speech. What do you think?"
+  - text: "I think certain critical information should be put under scrutiny before it is allowed to be distributed. Information in this age of the internet spreads fast and is prone to irreparably damage society. We need new rules that preserve both the sanctity of truth and the freedom of speech. What do you think?"
 
   utter_20_years_Q:
   - text: "Do you believe everything we believe to be right is going to be right 20 years from now?"
 
   utter_no_vote_Q:
-  - text: "A few years ago women were not allowed to vote, people of color were regarded to be of lower value, and homosexuality was a crime. 
-  Do you think this was right?"
+  - text: "A few years ago women were not allowed to vote, people of color were regarded to be of lower value, and homosexuality was a crime. Do you think this was right?"
 
   utter_free_discuss_Q:
   - text: "Do you believe freely discussing new ideas is essential for the growth of society?"
@@ -199,12 +190,10 @@ responses:
   - text: "Do you think it is a slippery slope to censor certain speech?"
 
   utter_horrendous_Q:
-  - text: "I think silencing any type of speech is ultimately dangerous. The societies that have restricted speech have always 
-  been destroyed and have done horrendous things to their citizens. We should never fall for this trap. Do you agree?"
+  - text: "I think silencing any type of speech is ultimately dangerous. The societies that have restricted speech have always been destroyed and have done horrendous things to their citizens. We should never fall for this trap. Do you agree?"
 
   utter_totalitarian_Q:
-  - text: "There have been many totalitarian societies in the past that have restricted speech and some are still doing it today. 
-  Would you prefer to live in such a society?"
+  - text: "There have been many totalitarian societies in the past that have restricted speech and some are still doing it today. Would you prefer to live in such a society?"
 
   utter_ideas_silenced_Q:
   - text: "How do you know that your ideas and opinions are not going to be silenced?"
