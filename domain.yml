@@ -133,40 +133,51 @@ responses:
 
   # ---- Empathy Free Speech Specific Response ----
   utter_free_speech_intro:
-  - text: "I would like to talk about Free Speech. Free speech is something we value very much in our life. However some claim that speech such as false speech and hate speech should be restricted."
+  - text: "I would like to talk to you about Free Speech. Free speech is something we value very much in our life. However some claim that 
+  speech such as false speech and hate speech should be restricted."
 
   utter_free_speech_believe_Q:
   - text: "Do you believe in unrestricted free speech?"
 
   utter_free_speech_rate_Q:
-  - text: "On a scale from 0 to 10, where 0 is \"not supported at all\" and 10 is \"fully supported\", how would you rate your attitude towards unrestricted free speech?"
+  - text: "On a scale from 0 to 10, where 0 is \"not supported at all\" and 10 is \"fully supported\", how would you rate your attitude 
+  towards unrestricted free speech?"
 
   utter_meet_larry_Q:
-  - text: "Meet Larry, he claims, \"I think people online are so hateful. What are these social media companies doing to protect their users?\" What would you say to Larry?"
+  - text: "Meet Larry, he claims, \"I think people online are so hateful. What are these social media companies doing to protect their 
+  users?\" What would you say to Larry?"
 
   utter_meet_jerry_Q:
-  - text: "Meet Jerry, he claims, \"It’s a comedy it should not be stopped, jokes are a reminder to laugh at our misery.\" What would you say to him?"
+  - text: "Meet Jerry, he claims, \"It’s a comedy, it should not be stopped, jokes are a reminder to laugh at our misery.\" What would you 
+  say to him?"
 
   utter_cyberbullies:
-  - text: "Larry was the victim of cyberbullies when he was in high school. There were jokes at his expense and when he retaliated he was exposed to further hate speech. He has been severely depressed his entire life and has tried to commit suicide on several occasions. He has pleaded with the social media companies to get this under control but his requests were met by more hate speech from other users. He doesn't use social media anymore for the sake of his health."
+  - text: "Larry was the victim of cyberbullies when he was in high school. They made jokes at his expense and when he retaliated, he 
+  was exposed to further hate speech. He has been severely depressed his entire life and has tried to commit suicide on several occasions. 
+  He has pleaded with the social media companies to get this under control but his requests were met by more hate speech from other users. 
+  He doesn't use social media anymore for the sake of his health."
 
   utter_hateful_speech_Q:
-  - text: "Do you think Larry should be able to go to social media without being exposed to hateful speech?"
+  - text: "Do you think Larry should be able to use social media without being exposed to hateful speech?"
 
   utter_abuse_hate_Q:
-  - text: "Should we protect people like Larry so they can live a life free from abuse and hate?"
+  - text: "Should we protect people like Larry so they can live a life free of abuse and hate?"
 
   utter_attacking_you_Q:
-  - text: "Would you be comfortable with people attacking you for your race, gender, or lifestyle on social media?"
+  - text: "Would you be comfortable with people attacking you for your ethnicity, gender, or lifestyle on social media?"
 
   utter_endangers:
-  - text: "Allowing bullying endangers people's well being and the government should try and protect their citizens against such speech. Internet should be an inclusive environment that allows people to express themselves safely. What do you think?"
+  - text: "Allowing bullying endangers peoples' well-being and the government should try and protect their citizens against it. 
+  The internet should be an inclusive environment that allows people to express themselves safely. What do you think?"
 
   utter_meet_emily_Q:
-  - text: "Let's meet Emily then, she claims, \"Truth is the truth. I have spent my life's work studying this. This misinformation campaign should be silenced\". What would you say to her?"
+  - text: "Let's meet Emily then. She claims, \"Truth is the truth. I have spent my life's work studying this. This misinformation campaign 
+  should be silenced\". What would you say to her?"
 
   utter_a_scientist:
-  - text: "Emily is a scientist who has been researching the climate her entire life. She has discovered a major incoming climate catastrophe caused by human activity. There has been a campaign to spread disinformation throughout the media, discrediting her work. She feels very frustrated and worried."
+  - text: "Emily is a scientist who has been researching the climate her entire life. She has discovered a major incoming climate 
+  catastrophe caused by human activity. There has been a campaign to spread disinformation throughout the media, discrediting her work. 
+  She feels very frustrated and worried."
 
   utter_more_credible_Q:
   - text: "Do you think some sources of information are more credible than others?"
@@ -175,31 +186,38 @@ responses:
   - text: "Should we try to promote the distribution of credible information and restrict the promotion of dishonest information?"
 
   utter_barry_Q:
-  - text: "Does a medical opinion from a doctor hold the same level of credibility as your neighbor Barry the carpenter?"
+  - text: "Does a medical opinion from a doctor hold the same level of credibility as your neighbor Barry the carpenter's?"
 
   utter_powerful_information:
-  - text: "I think information is very powerful. It can influence people and therefore society. Hateful speech and disinformation can do severe damage to the world. We should not treat all speech equally and favor some over others. What do you think?"
+  - text: "I think information is very powerful. It can influence people and therefore societies. Hateful speech and disinformation can do 
+  severe damage to the world. We should not treat all speech equally and favor some over others. What do you think?"
 
   utter_struggling:
-  - text: "Jerry is a struggling comedian. He loves to make people laugh and unite them. He likes to make risky jokes, jokes about himself, and treats comedy as a cathartic experience. He likes to joke about serious topics so he can make people laugh. This line that he likes to walk on is very thin and sometimes he makes mistakes in his delivery. One such time he got in trouble for joking about a serious topic and now he cannot find a venue to do the thing he loves."
+  - text: "Jerry is a struggling comedian. He loves to make people laugh and unite them. He likes to make risky jokes, jokes about himself, 
+  and treats comedy as a cathartic experience. He likes to joke about serious topics. This line that he likes 
+  to walk on is very thin, and sometimes he makes mistakes in his delivery. One such time he got in trouble for joking about a serious 
+  topic and now he cannot find a venue to do the thing he loves anymore."
 
   utter_silenced_Q:
   - text: "Should Jerry be stopped from doing comedy because of the contents of his jokes?"
 
   u_agree_with_Q:
-  - text: "Do you think anyone with uncomfortable opinions or words should be silenced?"
+  - text: "Do you think anyone expressing uncomfortable opinions or words should be silenced?"
 
   u_censor_artists_Q:
   - text: "Do you think censoring artists for irreverence might limit their creative spirit?"
 
   utter_best_art:
-  - text: "Limiting free speech could limit great musicians, artists, filmmakers, and comedians. We should give them the freedom to express themselves freely. Art is not meant to be comfortable and the best art is always uncomfortable. What would you think?"
+  - text: "Limiting free speech could limit great musicians, artists, filmmakers, and comedians. We should give them the freedom to express
+   themselves freely. Art is not meant to be comfortable and some of the best art is uncomfortable. What do you think?"
 
   utter_meet_sally_Q:
-  - text: "Now let's meet Sally, she claims, \"I am not a traitor, people deserve to hear the truth.\". What would you say to her?"
+  - text: "Now let's meet Sally. She claims, \"I am not a traitor, people deserve to hear the truth.\". What would you say to her?"
 
   utter_journalist:
-  - text: "Sally is a journalist. She is in between a lengthy investigation about a criminal conspiracy in the government. The government is using its powers to mislabel her investigation as misinformation, calling her a conspiracy theorist and just constantly doing whatever they can to silence her. She could face jail time for doing her job because the government is now accusing her of treason."
+  - text: "Sally is a journalist. She is in the midst of a lengthy investigation about a criminal conspiracy in the government. The government 
+  is using its powers to mislabel her investigation as misinformation, calling her a conspiracy theorist and just constantly doing whatever
+   it can to silence her. She could face jail time for doing her job because the government is now accusing her of treason."
 
   utter_expose_corruption_Q:
   - text: "People like Sally expose corruption, and allow the citizens to be informed about the people they elected. Should we limit them?"
@@ -211,7 +229,8 @@ responses:
   - text: "Do you think we, as informed citizens, are going to be the ultimate victims, if we set the precedent of suppressing free speech?"
            
   utter_democracy:
-  - text: "I think we rely on free speech for art, science, and democracy. More importantly, it is the only tool we have to hold the people we elect accountable and to involve ourselves in the decision-making process. What do you think?"
+  - text: "I think we rely on free speech for art, science, and democracy. More importantly, it is the only tool we have to hold the people
+   we elect accountable and to involve ourselves in the decision-making process. What do you think?"
 
 session_config:
   session_expiration_time: 60
